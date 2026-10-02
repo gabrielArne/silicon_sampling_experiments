@@ -179,3 +179,10 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Entorno de verificación y resultados locales de Q121
+.venv-q121
+.uv-cache
+.pytest-tmp
+data/output
+__marimo__
