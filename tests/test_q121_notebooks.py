@@ -112,6 +112,8 @@ def experiment(request, tmp_path):
     def raw_response():
         if ns["MODEL_NAME"].startswith("openai/"):
             return "<|channel|>analysis<|message|>Analysis<|end|><|start|>assistant<|channel|>final<|message|>" + VALID_JSON + "<|fim_suffix|>"
+        if ns["MODEL_NAME"] == "gpt-6-luna":
+            return VALID_JSON
         return "Native reasoning</think>\n" + VALID_JSON + "<|im_end|>"
     ns["good_raw"] = raw_response()
     ns["generate_one"] = lambda row, seed: ns["good_raw"]
@@ -127,16 +129,19 @@ def test_models_match_llms_notebook():
         ns = {"Path": Path}
         load_cell(ns, notebook, "MODEL_NAME")
         actual.add(ns["MODEL_NAME"])
-    assert actual == expected
+    assert actual == expected | {"gpt-6-luna"}
 
 
-def test_prompt_matches_original_and_excludes_empirical_answer(experiment):
+def test_two_prompt_versions_and_excludes_empirical_answer(experiment):
     original = json.loads((ROOT / "notebooks/experiment_q121.ipynb").read_text(encoding="utf-8"))
     code = "".join(original["cells"][6]["source"]).split("# Vista de ejemplo")[0]
     ns = {"pd": pd}
     exec(code, ns)
     row = experiment["profiles"].iloc[0].to_dict()
-    assert ns["SYSTEM_PROMPT_A"] == experiment["SYSTEM_PROMPT"]
+    assert ns["SYSTEM_PROMPT_A"] == experiment["SYSTEM_PROMPTS"]["anti_midpoint_v2"].replace("\n    ", "\n")
+    assert experiment["PROMPT_VERSION"] == "neutral_v1"
+    assert "do NOT default to the neutral" not in experiment["SYSTEM_PROMPT"]
+    assert "do NOT default to the neutral" in experiment["SYSTEM_PROMPTS"]["anti_midpoint_v2"]
     assert ns["build_prompt_q121"](row) == experiment["build_prompt_q121"](row)
     row["q121_response"] = "SECRET_EMPIRICAL_ANSWER"
     assert "SECRET_EMPIRICAL_ANSWER" not in experiment["build_prompt_q121"](row)
@@ -145,7 +150,7 @@ def test_prompt_matches_original_and_excludes_empirical_answer(experiment):
 def test_only_final_valid_json_is_accepted(experiment):
     parse = experiment["parse_response"]
     assert parse(experiment["good_raw"])["Q121"] == "Quite good"
-    if experiment["MODEL_NAME"].startswith("Qwen/"):
+    if experiment["MODEL_NAME"].startswith("Qwen/") or experiment["MODEL_NAME"] == "gpt-6-luna":
         # Con thinking desactivado, el JSON directo es la salida final esperada.
         assert parse(VALID_JSON)["Q121"] == "Quite good"
     else:

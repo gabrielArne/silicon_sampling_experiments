@@ -1,0 +1,37 @@
+model_name,prompt_version,country,attempts,profiles,valid_profiles,invalid_attempts,missing_valid_profiles,invalid_profile_rate
+Qwen/Qwen3-14B,anti_midpoint_v2,Argentina,400,400,400,0,0,0.0
+Qwen/Qwen3-14B,anti_midpoint_v2,United States,400,400,400,0,0,0.0
+Qwen/Qwen3-14B,anti_midpoint_v2,Uruguay,400,400,400,0,0,0.0
+Qwen/Qwen3-14B,neutral_v1,Argentina,400,400,400,0,0,0.0
+Qwen/Qwen3-14B,neutral_v1,United States,400,400,400,0,0,0.0
+Qwen/Qwen3-14B,neutral_v1,Uruguay,400,400,400,0,0,0.0
+Qwen/Qwen3-32B,anti_midpoint_v2,Argentina,400,400,400,0,0,0.0
+Qwen/Qwen3-32B,anti_midpoint_v2,United States,400,400,400,0,0,0.0
+Qwen/Qwen3-32B,anti_midpoint_v2,Uruguay,400,400,400,0,0,0.0
+Qwen/Qwen3-32B,neutral_v1,Argentina,400,400,400,0,0,0.0
+Qwen/Qwen3-32B,neutral_v1,United States,400,400,400,0,0,0.0
+Qwen/Qwen3-32B,neutral_v1,Uruguay,400,400,400,0,0,0.0
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Argentina,400,400,381,19,19,0.04749999999999999
+Qwen/Qwen3.5-4B,anti_midpoint_v2,United States,400,400,372,28,28,0.06999999999999995
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Uruguay,400,400,368,32,32,0.07999999999999996
+Qwen/Qwen3.5-4B,neutral_v1,Argentina,400,400,349,51,51,0.12749999999999995
+Qwen/Qwen3.5-4B,neutral_v1,United States,400,400,331,69,69,0.1725
+Qwen/Qwen3.5-4B,neutral_v1,Uruguay,400,400,331,69,69,0.1725
+gpt-6-luna,anti_midpoint_v2,Argentina,400,400,400,0,0,0.0
+gpt-6-luna,anti_midpoint_v2,United States,400,400,400,0,0,0.0
+gpt-6-luna,anti_midpoint_v2,Uruguay,400,400,400,0,0,0.0
+gpt-6-luna,neutral_v1,Argentina,400,400,400,0,0,0.0
+gpt-6-luna,neutral_v1,United States,400,400,400,0,0,0.0
+gpt-6-luna,neutral_v1,Uruguay,400,400,400,0,0,0.0
+openai/gpt-oss-120b,anti_midpoint_v2,Argentina,400,400,400,0,0,0.0
+openai/gpt-oss-120b,anti_midpoint_v2,United States,400,400,400,0,0,0.0
+openai/gpt-oss-120b,anti_midpoint_v2,Uruguay,400,400,400,0,0,0.0
+openai/gpt-oss-120b,neutral_v1,Argentina,400,400,400,0,0,0.0
+openai/gpt-oss-120b,neutral_v1,United States,400,400,400,0,0,0.0
+openai/gpt-oss-120b,neutral_v1,Uruguay,400,400,400,0,0,0.0
+openai/gpt-oss-20b,anti_midpoint_v2,Argentina,400,400,400,0,0,0.0
+openai/gpt-oss-20b,anti_midpoint_v2,United States,400,400,400,0,0,0.0
+openai/gpt-oss-20b,anti_midpoint_v2,Uruguay,400,400,400,0,0,0.0
+openai/gpt-oss-20b,neutral_v1,Argentina,400,400,400,0,0,0.0
+openai/gpt-oss-20b,neutral_v1,United States,400,400,400,0,0,0.0
+openai/gpt-oss-20b,neutral_v1,Uruguay,400,400,400,0,0,0.0

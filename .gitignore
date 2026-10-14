@@ -186,3 +186,4 @@ cython_debug/
 .pytest-tmp
 data/output
 __marimo__
+.matplotlib/

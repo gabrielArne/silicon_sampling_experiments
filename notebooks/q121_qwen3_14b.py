@@ -41,7 +41,7 @@ def _(mo):
     # Q121 · Qwen3-14B
 
     Simulación de los perfiles de Argentina, Uruguay y Estados Unidos.
-    Conserva el prompt de `experiment_q121.ipynb` y el esquema del tutorial.
+    Incluye el prompt neutral y el prompt anti-punto-medio de `experiment_q121.ipynb`.
 
     1. Seleccioná una máquina con GPU y revisá la configuración.
     2. En molab, subí el CSV de entrada o guardalo en la carpeta de Drive
@@ -66,7 +66,8 @@ def _(Path):
     MODEL_NAME = "Qwen/Qwen3-14B"
     MODEL_REVISION = "main"  # Se registra el commit resuelto; podés fijarlo aquí.
     COUNTRIES = ["Argentina", "United States", "Uruguay"]
-    N_SAMPLE = 1  # Prueba inicial: un perfil por país (3 respuestas en total).
+    N_SAMPLE = None  # Segunda corrida completa; usa el mismo universo que el prompt anterior.
+    PROMPT_VERSION = "neutral_v1"  # "neutral_v1" | "anti_midpoint_v2"
     DRIVE_SYNC_EVERY = 10  # El CSV local sí se guarda después de cada intento.
     RANDOM_SEED = 42
     GENERATION = {
@@ -87,7 +88,7 @@ def _(Path):
     return (
         CHAT_TEMPLATE, COUNTRIES, CREDENTIALS_PATH, DATA_PATH,
         DRIVE_FOLDER_ID, DRIVE_FOLDER_NAME, DRIVE_SYNC_EVERY, GENERATION, INPUT_DRIVE_FILE_ID,
-        MODEL_NAME, MODEL_REVISION, N_SAMPLE, OUTPUT_DIR, RANDOM_SEED,
+        MODEL_NAME, MODEL_REVISION, N_SAMPLE, OUTPUT_DIR, PROMPT_VERSION, RANDOM_SEED,
     )
 
 
@@ -99,12 +100,24 @@ def _(mo):
 
 
 @app.cell
-def _():
+def _(PROMPT_VERSION):
     OPTIONS = [
         "Very good", "Quite good", "Neither good, nor bad", "Quite bad", "Rather bad"
     ]
-    # Mismo texto que experiment_q121.ipynb.
-    SYSTEM_PROMPT = """You will be given a self-description by a survey respondent
+    SYSTEM_PROMPTS = {
+        "neutral_v1": """You will be given a self-description by a survey respondent
+    in their own words. Your task is to answer the survey question as that person
+    would, adopting their perspective and lived experience as described.
+
+    Instructions:
+    1. Base the answer on the respondent profile provided.
+    2. Select the single response option this person would most likely choose.
+    3. Reason briefly in the "thinking" field (2-4 sentences) in first person,
+       as the respondent — not as an outside observer.
+    4. Respond EXCLUSIVELY in the JSON format specified. No additional text.
+    5. Respond with the EXACT option string provided.
+    """,
+        "anti_midpoint_v2": """You will be given a self-description by a survey respondent
     in their own words. Your task is to answer the survey question as that person
     would, adopting their perspective, values, and lived experience as described.
 
@@ -119,8 +132,11 @@ def _():
        as the respondent — not as an outside observer.
     5. Respond EXCLUSIVELY in the JSON format specified. No additional text.
     6. Respond with the EXACT option string provided.
-    """
-    # Elimina la indentación del cuerpo de la celda, sin cambiar el prompt.
+    """,
+    }
+    if PROMPT_VERSION not in SYSTEM_PROMPTS:
+        raise ValueError(f"PROMPT_VERSION inválida: {PROMPT_VERSION}")
+    SYSTEM_PROMPT = SYSTEM_PROMPTS[PROMPT_VERSION]
     SYSTEM_PROMPT = SYSTEM_PROMPT.replace("\n    ", "\n")
 
     def build_profile(row):
@@ -146,7 +162,7 @@ def _():
             "}"
         )
 
-    return OPTIONS, SYSTEM_PROMPT, build_prompt_q121
+    return OPTIONS, SYSTEM_PROMPT, SYSTEM_PROMPTS, build_prompt_q121
 
 
 @app.cell
@@ -316,20 +332,21 @@ def _(CHAT_TEMPLATE, MODEL_NAME, OPTIONS, json, re):
 @app.cell
 def _(
     CHAT_TEMPLATE, GENERATION, MODEL_NAME, MODEL_REVISION, OUTPUT_DIR,
-    RANDOM_SEED, SYSTEM_PROMPT, build_prompt_q121, hashlib, input_sha256, json, runtime,
+    PROMPT_VERSION, RANDOM_SEED, SYSTEM_PROMPT, build_prompt_q121, hashlib, input_sha256, json, runtime,
 ):
     # Cambiar datos, prompt, pesos o parámetros crea otro CSV, sin mezclar corridas.
     _example = dict.fromkeys(["sex", "country", "occupation", "class", "education", "political_identity"], "{profile}")
     parameters = {
         "schema_version": 1, "model_name": MODEL_NAME, "model_revision": MODEL_REVISION,
-        "question": "Q121", "input_sha256": input_sha256, "random_seed": RANDOM_SEED,
+        "question": "Q121", "prompt_version": PROMPT_VERSION,
+        "input_sha256": input_sha256, "random_seed": RANDOM_SEED,
         "generation": GENERATION, "chat_template": CHAT_TEMPLATE,
         "system_prompt": SYSTEM_PROMPT, "prompt_template": build_prompt_q121(_example),
         **runtime,
     }
     parameters_json = json.dumps(parameters, ensure_ascii=False, sort_keys=True, default=str)
     run_id = hashlib.sha256(parameters_json.encode()).hexdigest()[:16]
-    output_path = OUTPUT_DIR / f"{MODEL_NAME.replace('/', '_')}_Q121_{run_id}.csv"
+    output_path = OUTPUT_DIR / f"{MODEL_NAME.replace('/', '_')}_Q121_{PROMPT_VERSION}_{run_id}.csv"
     print(f"CSV: {output_path.name}")
     return output_path, parameters_json, run_id
 
@@ -385,7 +402,7 @@ def _(MediaIoBaseUpload, drive, find_drive_file, folder_id, io, os, pd):
 
 @app.cell
 def _(
-    DRIVE_SYNC_EVERY, GENERATION, MODEL_NAME, RANDOM_SEED, SYSTEM_PROMPT, build_prompt_q121,
+    DRIVE_SYNC_EVERY, GENERATION, MODEL_NAME, PROMPT_VERSION, RANDOM_SEED, SYSTEM_PROMPT, build_prompt_q121,
     datetime, generate_one, hashlib, output_path, parameters_json, parse_response,
     pd, profiles, restore_checkpoint, run_id, save_local, time, timezone, upload_checkpoint,
 ):
@@ -419,7 +436,8 @@ def _(
             valid = not error
             records.append({
                 "run_id": run_id, "empirical_id": row["id"], "country": row["country"],
-                "question": "Q121", "sex": row["sex"], "education": row["education"],
+                "question": "Q121", "prompt_version": PROMPT_VERSION,
+                "sex": row["sex"], "education": row["education"],
                 "class": row["class"], "occupation": row["occupation"],
                 "political_ident": row["political_identity"], "empirical": row["q121_response"],
                 "model": parsed.get("Q121", ""), "thinking": parsed.get("thinking", ""),

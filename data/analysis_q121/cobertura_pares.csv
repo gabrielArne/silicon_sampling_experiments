@@ -1,0 +1,19 @@
+model_name,country,neutral_valid,anti_valid,common_valid
+Qwen/Qwen3-14B,Argentina,400,400,400
+Qwen/Qwen3-14B,United States,400,400,400
+Qwen/Qwen3-14B,Uruguay,400,400,400
+Qwen/Qwen3-32B,Argentina,400,400,400
+Qwen/Qwen3-32B,United States,400,400,400
+Qwen/Qwen3-32B,Uruguay,400,400,400
+Qwen/Qwen3.5-4B,Argentina,349,381,337
+Qwen/Qwen3.5-4B,United States,331,372,317
+Qwen/Qwen3.5-4B,Uruguay,331,368,313
+gpt-6-luna,Argentina,400,400,400
+gpt-6-luna,United States,400,400,400
+gpt-6-luna,Uruguay,400,400,400
+openai/gpt-oss-120b,Argentina,400,400,400
+openai/gpt-oss-120b,United States,400,400,400
+openai/gpt-oss-120b,Uruguay,400,400,400
+openai/gpt-oss-20b,Argentina,400,400,400
+openai/gpt-oss-20b,United States,400,400,400
+openai/gpt-oss-20b,Uruguay,400,400,400

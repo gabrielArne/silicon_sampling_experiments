@@ -1,0 +1,901 @@
+model_name,prompt_version,country,empirical,predicted,count,row_proportion
+Qwen/Qwen3-14B,anti_midpoint_v2,Argentina,Very good,Very good,0,0.0
+Qwen/Qwen3-14B,anti_midpoint_v2,Argentina,Very good,Quite good,1,0.05555555555555555
+Qwen/Qwen3-14B,anti_midpoint_v2,Argentina,Very good,"Neither good, nor bad",6,0.3333333333333333
+Qwen/Qwen3-14B,anti_midpoint_v2,Argentina,Very good,Quite bad,0,0.0
+Qwen/Qwen3-14B,anti_midpoint_v2,Argentina,Very good,Rather bad,11,0.6111111111111112
+Qwen/Qwen3-14B,anti_midpoint_v2,Argentina,Quite good,Very good,0,0.0
+Qwen/Qwen3-14B,anti_midpoint_v2,Argentina,Quite good,Quite good,3,0.031578947368421054
+Qwen/Qwen3-14B,anti_midpoint_v2,Argentina,Quite good,"Neither good, nor bad",38,0.4
+Qwen/Qwen3-14B,anti_midpoint_v2,Argentina,Quite good,Quite bad,7,0.07368421052631578
+Qwen/Qwen3-14B,anti_midpoint_v2,Argentina,Quite good,Rather bad,47,0.49473684210526314
+Qwen/Qwen3-14B,anti_midpoint_v2,Argentina,"Neither good, nor bad",Very good,2,0.009708737864077669
+Qwen/Qwen3-14B,anti_midpoint_v2,Argentina,"Neither good, nor bad",Quite good,8,0.038834951456310676
+Qwen/Qwen3-14B,anti_midpoint_v2,Argentina,"Neither good, nor bad","Neither good, nor bad",61,0.2961165048543689
+Qwen/Qwen3-14B,anti_midpoint_v2,Argentina,"Neither good, nor bad",Quite bad,13,0.06310679611650485
+Qwen/Qwen3-14B,anti_midpoint_v2,Argentina,"Neither good, nor bad",Rather bad,122,0.5922330097087378
+Qwen/Qwen3-14B,anti_midpoint_v2,Argentina,Quite bad,Very good,1,0.016129032258064516
+Qwen/Qwen3-14B,anti_midpoint_v2,Argentina,Quite bad,Quite good,1,0.016129032258064516
+Qwen/Qwen3-14B,anti_midpoint_v2,Argentina,Quite bad,"Neither good, nor bad",15,0.24193548387096775
+Qwen/Qwen3-14B,anti_midpoint_v2,Argentina,Quite bad,Quite bad,2,0.03225806451612903
+Qwen/Qwen3-14B,anti_midpoint_v2,Argentina,Quite bad,Rather bad,43,0.6935483870967742
+Qwen/Qwen3-14B,anti_midpoint_v2,Argentina,Rather bad,Very good,0,0.0
+Qwen/Qwen3-14B,anti_midpoint_v2,Argentina,Rather bad,Quite good,0,0.0
+Qwen/Qwen3-14B,anti_midpoint_v2,Argentina,Rather bad,"Neither good, nor bad",7,0.3684210526315789
+Qwen/Qwen3-14B,anti_midpoint_v2,Argentina,Rather bad,Quite bad,0,0.0
+Qwen/Qwen3-14B,anti_midpoint_v2,Argentina,Rather bad,Rather bad,12,0.631578947368421
+Qwen/Qwen3-14B,anti_midpoint_v2,United States,Very good,Very good,21,0.3559322033898305
+Qwen/Qwen3-14B,anti_midpoint_v2,United States,Very good,Quite good,12,0.2033898305084746
+Qwen/Qwen3-14B,anti_midpoint_v2,United States,Very good,"Neither good, nor bad",14,0.23728813559322035
+Qwen/Qwen3-14B,anti_midpoint_v2,United States,Very good,Quite bad,1,0.01694915254237288
+Qwen/Qwen3-14B,anti_midpoint_v2,United States,Very good,Rather bad,11,0.1864406779661017
+Qwen/Qwen3-14B,anti_midpoint_v2,United States,Quite good,Very good,30,0.22388059701492538
+Qwen/Qwen3-14B,anti_midpoint_v2,United States,Quite good,Quite good,33,0.2462686567164179
+Qwen/Qwen3-14B,anti_midpoint_v2,United States,Quite good,"Neither good, nor bad",46,0.34328358208955223
+Qwen/Qwen3-14B,anti_midpoint_v2,United States,Quite good,Quite bad,3,0.022388059701492536
+Qwen/Qwen3-14B,anti_midpoint_v2,United States,Quite good,Rather bad,22,0.16417910447761194
+Qwen/Qwen3-14B,anti_midpoint_v2,United States,"Neither good, nor bad",Very good,12,0.07792207792207792
+Qwen/Qwen3-14B,anti_midpoint_v2,United States,"Neither good, nor bad",Quite good,16,0.1038961038961039
+Qwen/Qwen3-14B,anti_midpoint_v2,United States,"Neither good, nor bad","Neither good, nor bad",56,0.36363636363636365
+Qwen/Qwen3-14B,anti_midpoint_v2,United States,"Neither good, nor bad",Quite bad,6,0.03896103896103896
+Qwen/Qwen3-14B,anti_midpoint_v2,United States,"Neither good, nor bad",Rather bad,64,0.4155844155844156
+Qwen/Qwen3-14B,anti_midpoint_v2,United States,Quite bad,Very good,0,0.0
+Qwen/Qwen3-14B,anti_midpoint_v2,United States,Quite bad,Quite good,2,0.046511627906976744
+Qwen/Qwen3-14B,anti_midpoint_v2,United States,Quite bad,"Neither good, nor bad",13,0.3023255813953488
+Qwen/Qwen3-14B,anti_midpoint_v2,United States,Quite bad,Quite bad,0,0.0
+Qwen/Qwen3-14B,anti_midpoint_v2,United States,Quite bad,Rather bad,28,0.6511627906976745
+Qwen/Qwen3-14B,anti_midpoint_v2,United States,Rather bad,Very good,1,0.1
+Qwen/Qwen3-14B,anti_midpoint_v2,United States,Rather bad,Quite good,0,0.0
+Qwen/Qwen3-14B,anti_midpoint_v2,United States,Rather bad,"Neither good, nor bad",3,0.3
+Qwen/Qwen3-14B,anti_midpoint_v2,United States,Rather bad,Quite bad,0,0.0
+Qwen/Qwen3-14B,anti_midpoint_v2,United States,Rather bad,Rather bad,6,0.6
+Qwen/Qwen3-14B,anti_midpoint_v2,Uruguay,Very good,Very good,13,0.24074074074074073
+Qwen/Qwen3-14B,anti_midpoint_v2,Uruguay,Very good,Quite good,3,0.05555555555555555
+Qwen/Qwen3-14B,anti_midpoint_v2,Uruguay,Very good,"Neither good, nor bad",21,0.3888888888888889
+Qwen/Qwen3-14B,anti_midpoint_v2,Uruguay,Very good,Quite bad,1,0.018518518518518517
+Qwen/Qwen3-14B,anti_midpoint_v2,Uruguay,Very good,Rather bad,16,0.2962962962962963
+Qwen/Qwen3-14B,anti_midpoint_v2,Uruguay,Quite good,Very good,21,0.18584070796460178
+Qwen/Qwen3-14B,anti_midpoint_v2,Uruguay,Quite good,Quite good,13,0.11504424778761062
+Qwen/Qwen3-14B,anti_midpoint_v2,Uruguay,Quite good,"Neither good, nor bad",38,0.336283185840708
+Qwen/Qwen3-14B,anti_midpoint_v2,Uruguay,Quite good,Quite bad,3,0.02654867256637168
+Qwen/Qwen3-14B,anti_midpoint_v2,Uruguay,Quite good,Rather bad,38,0.336283185840708
+Qwen/Qwen3-14B,anti_midpoint_v2,Uruguay,"Neither good, nor bad",Very good,29,0.14795918367346939
+Qwen/Qwen3-14B,anti_midpoint_v2,Uruguay,"Neither good, nor bad",Quite good,21,0.10714285714285714
+Qwen/Qwen3-14B,anti_midpoint_v2,Uruguay,"Neither good, nor bad","Neither good, nor bad",78,0.3979591836734694
+Qwen/Qwen3-14B,anti_midpoint_v2,Uruguay,"Neither good, nor bad",Quite bad,4,0.02040816326530612
+Qwen/Qwen3-14B,anti_midpoint_v2,Uruguay,"Neither good, nor bad",Rather bad,64,0.32653061224489793
+Qwen/Qwen3-14B,anti_midpoint_v2,Uruguay,Quite bad,Very good,4,0.14814814814814814
+Qwen/Qwen3-14B,anti_midpoint_v2,Uruguay,Quite bad,Quite good,1,0.037037037037037035
+Qwen/Qwen3-14B,anti_midpoint_v2,Uruguay,Quite bad,"Neither good, nor bad",7,0.25925925925925924
+Qwen/Qwen3-14B,anti_midpoint_v2,Uruguay,Quite bad,Quite bad,2,0.07407407407407407
+Qwen/Qwen3-14B,anti_midpoint_v2,Uruguay,Quite bad,Rather bad,13,0.48148148148148145
+Qwen/Qwen3-14B,anti_midpoint_v2,Uruguay,Rather bad,Very good,0,0.0
+Qwen/Qwen3-14B,anti_midpoint_v2,Uruguay,Rather bad,Quite good,0,0.0
+Qwen/Qwen3-14B,anti_midpoint_v2,Uruguay,Rather bad,"Neither good, nor bad",4,0.4
+Qwen/Qwen3-14B,anti_midpoint_v2,Uruguay,Rather bad,Quite bad,1,0.1
+Qwen/Qwen3-14B,anti_midpoint_v2,Uruguay,Rather bad,Rather bad,5,0.5
+Qwen/Qwen3-14B,neutral_v1,Argentina,Very good,Very good,2,0.1111111111111111
+Qwen/Qwen3-14B,neutral_v1,Argentina,Very good,Quite good,4,0.2222222222222222
+Qwen/Qwen3-14B,neutral_v1,Argentina,Very good,"Neither good, nor bad",9,0.5
+Qwen/Qwen3-14B,neutral_v1,Argentina,Very good,Quite bad,0,0.0
+Qwen/Qwen3-14B,neutral_v1,Argentina,Very good,Rather bad,3,0.16666666666666666
+Qwen/Qwen3-14B,neutral_v1,Argentina,Quite good,Very good,6,0.06315789473684211
+Qwen/Qwen3-14B,neutral_v1,Argentina,Quite good,Quite good,24,0.25263157894736843
+Qwen/Qwen3-14B,neutral_v1,Argentina,Quite good,"Neither good, nor bad",42,0.4421052631578947
+Qwen/Qwen3-14B,neutral_v1,Argentina,Quite good,Quite bad,0,0.0
+Qwen/Qwen3-14B,neutral_v1,Argentina,Quite good,Rather bad,23,0.24210526315789474
+Qwen/Qwen3-14B,neutral_v1,Argentina,"Neither good, nor bad",Very good,11,0.05339805825242718
+Qwen/Qwen3-14B,neutral_v1,Argentina,"Neither good, nor bad",Quite good,33,0.16019417475728157
+Qwen/Qwen3-14B,neutral_v1,Argentina,"Neither good, nor bad","Neither good, nor bad",113,0.5485436893203883
+Qwen/Qwen3-14B,neutral_v1,Argentina,"Neither good, nor bad",Quite bad,3,0.014563106796116505
+Qwen/Qwen3-14B,neutral_v1,Argentina,"Neither good, nor bad",Rather bad,46,0.22330097087378642
+Qwen/Qwen3-14B,neutral_v1,Argentina,Quite bad,Very good,3,0.04838709677419355
+Qwen/Qwen3-14B,neutral_v1,Argentina,Quite bad,Quite good,12,0.1935483870967742
+Qwen/Qwen3-14B,neutral_v1,Argentina,Quite bad,"Neither good, nor bad",29,0.46774193548387094
+Qwen/Qwen3-14B,neutral_v1,Argentina,Quite bad,Quite bad,1,0.016129032258064516
+Qwen/Qwen3-14B,neutral_v1,Argentina,Quite bad,Rather bad,17,0.27419354838709675
+Qwen/Qwen3-14B,neutral_v1,Argentina,Rather bad,Very good,0,0.0
+Qwen/Qwen3-14B,neutral_v1,Argentina,Rather bad,Quite good,2,0.10526315789473684
+Qwen/Qwen3-14B,neutral_v1,Argentina,Rather bad,"Neither good, nor bad",9,0.47368421052631576
+Qwen/Qwen3-14B,neutral_v1,Argentina,Rather bad,Quite bad,1,0.05263157894736842
+Qwen/Qwen3-14B,neutral_v1,Argentina,Rather bad,Rather bad,7,0.3684210526315789
+Qwen/Qwen3-14B,neutral_v1,United States,Very good,Very good,29,0.4915254237288136
+Qwen/Qwen3-14B,neutral_v1,United States,Very good,Quite good,12,0.2033898305084746
+Qwen/Qwen3-14B,neutral_v1,United States,Very good,"Neither good, nor bad",11,0.1864406779661017
+Qwen/Qwen3-14B,neutral_v1,United States,Very good,Quite bad,1,0.01694915254237288
+Qwen/Qwen3-14B,neutral_v1,United States,Very good,Rather bad,6,0.1016949152542373
+Qwen/Qwen3-14B,neutral_v1,United States,Quite good,Very good,48,0.3582089552238806
+Qwen/Qwen3-14B,neutral_v1,United States,Quite good,Quite good,54,0.40298507462686567
+Qwen/Qwen3-14B,neutral_v1,United States,Quite good,"Neither good, nor bad",25,0.1865671641791045
+Qwen/Qwen3-14B,neutral_v1,United States,Quite good,Quite bad,1,0.007462686567164179
+Qwen/Qwen3-14B,neutral_v1,United States,Quite good,Rather bad,6,0.04477611940298507
+Qwen/Qwen3-14B,neutral_v1,United States,"Neither good, nor bad",Very good,22,0.14285714285714285
+Qwen/Qwen3-14B,neutral_v1,United States,"Neither good, nor bad",Quite good,54,0.35064935064935066
+Qwen/Qwen3-14B,neutral_v1,United States,"Neither good, nor bad","Neither good, nor bad",51,0.33116883116883117
+Qwen/Qwen3-14B,neutral_v1,United States,"Neither good, nor bad",Quite bad,4,0.025974025974025976
+Qwen/Qwen3-14B,neutral_v1,United States,"Neither good, nor bad",Rather bad,23,0.14935064935064934
+Qwen/Qwen3-14B,neutral_v1,United States,Quite bad,Very good,1,0.023255813953488372
+Qwen/Qwen3-14B,neutral_v1,United States,Quite bad,Quite good,11,0.2558139534883721
+Qwen/Qwen3-14B,neutral_v1,United States,Quite bad,"Neither good, nor bad",19,0.4418604651162791
+Qwen/Qwen3-14B,neutral_v1,United States,Quite bad,Quite bad,0,0.0
+Qwen/Qwen3-14B,neutral_v1,United States,Quite bad,Rather bad,12,0.27906976744186046
+Qwen/Qwen3-14B,neutral_v1,United States,Rather bad,Very good,1,0.1
+Qwen/Qwen3-14B,neutral_v1,United States,Rather bad,Quite good,2,0.2
+Qwen/Qwen3-14B,neutral_v1,United States,Rather bad,"Neither good, nor bad",3,0.3
+Qwen/Qwen3-14B,neutral_v1,United States,Rather bad,Quite bad,0,0.0
+Qwen/Qwen3-14B,neutral_v1,United States,Rather bad,Rather bad,4,0.4
+Qwen/Qwen3-14B,neutral_v1,Uruguay,Very good,Very good,18,0.3333333333333333
+Qwen/Qwen3-14B,neutral_v1,Uruguay,Very good,Quite good,14,0.25925925925925924
+Qwen/Qwen3-14B,neutral_v1,Uruguay,Very good,"Neither good, nor bad",14,0.25925925925925924
+Qwen/Qwen3-14B,neutral_v1,Uruguay,Very good,Quite bad,0,0.0
+Qwen/Qwen3-14B,neutral_v1,Uruguay,Very good,Rather bad,8,0.14814814814814814
+Qwen/Qwen3-14B,neutral_v1,Uruguay,Quite good,Very good,31,0.2743362831858407
+Qwen/Qwen3-14B,neutral_v1,Uruguay,Quite good,Quite good,29,0.25663716814159293
+Qwen/Qwen3-14B,neutral_v1,Uruguay,Quite good,"Neither good, nor bad",33,0.2920353982300885
+Qwen/Qwen3-14B,neutral_v1,Uruguay,Quite good,Quite bad,0,0.0
+Qwen/Qwen3-14B,neutral_v1,Uruguay,Quite good,Rather bad,20,0.17699115044247787
+Qwen/Qwen3-14B,neutral_v1,Uruguay,"Neither good, nor bad",Very good,51,0.2602040816326531
+Qwen/Qwen3-14B,neutral_v1,Uruguay,"Neither good, nor bad",Quite good,36,0.1836734693877551
+Qwen/Qwen3-14B,neutral_v1,Uruguay,"Neither good, nor bad","Neither good, nor bad",63,0.32142857142857145
+Qwen/Qwen3-14B,neutral_v1,Uruguay,"Neither good, nor bad",Quite bad,1,0.00510204081632653
+Qwen/Qwen3-14B,neutral_v1,Uruguay,"Neither good, nor bad",Rather bad,45,0.22959183673469388
+Qwen/Qwen3-14B,neutral_v1,Uruguay,Quite bad,Very good,5,0.18518518518518517
+Qwen/Qwen3-14B,neutral_v1,Uruguay,Quite bad,Quite good,1,0.037037037037037035
+Qwen/Qwen3-14B,neutral_v1,Uruguay,Quite bad,"Neither good, nor bad",10,0.37037037037037035
+Qwen/Qwen3-14B,neutral_v1,Uruguay,Quite bad,Quite bad,0,0.0
+Qwen/Qwen3-14B,neutral_v1,Uruguay,Quite bad,Rather bad,11,0.4074074074074074
+Qwen/Qwen3-14B,neutral_v1,Uruguay,Rather bad,Very good,1,0.1
+Qwen/Qwen3-14B,neutral_v1,Uruguay,Rather bad,Quite good,2,0.2
+Qwen/Qwen3-14B,neutral_v1,Uruguay,Rather bad,"Neither good, nor bad",3,0.3
+Qwen/Qwen3-14B,neutral_v1,Uruguay,Rather bad,Quite bad,0,0.0
+Qwen/Qwen3-14B,neutral_v1,Uruguay,Rather bad,Rather bad,4,0.4
+Qwen/Qwen3-32B,anti_midpoint_v2,Argentina,Very good,Very good,5,0.2777777777777778
+Qwen/Qwen3-32B,anti_midpoint_v2,Argentina,Very good,Quite good,1,0.05555555555555555
+Qwen/Qwen3-32B,anti_midpoint_v2,Argentina,Very good,"Neither good, nor bad",3,0.16666666666666666
+Qwen/Qwen3-32B,anti_midpoint_v2,Argentina,Very good,Quite bad,1,0.05555555555555555
+Qwen/Qwen3-32B,anti_midpoint_v2,Argentina,Very good,Rather bad,8,0.4444444444444444
+Qwen/Qwen3-32B,anti_midpoint_v2,Argentina,Quite good,Very good,23,0.24210526315789474
+Qwen/Qwen3-32B,anti_midpoint_v2,Argentina,Quite good,Quite good,21,0.22105263157894736
+Qwen/Qwen3-32B,anti_midpoint_v2,Argentina,Quite good,"Neither good, nor bad",10,0.10526315789473684
+Qwen/Qwen3-32B,anti_midpoint_v2,Argentina,Quite good,Quite bad,1,0.010526315789473684
+Qwen/Qwen3-32B,anti_midpoint_v2,Argentina,Quite good,Rather bad,40,0.42105263157894735
+Qwen/Qwen3-32B,anti_midpoint_v2,Argentina,"Neither good, nor bad",Very good,43,0.2087378640776699
+Qwen/Qwen3-32B,anti_midpoint_v2,Argentina,"Neither good, nor bad",Quite good,29,0.1407766990291262
+Qwen/Qwen3-32B,anti_midpoint_v2,Argentina,"Neither good, nor bad","Neither good, nor bad",21,0.10194174757281553
+Qwen/Qwen3-32B,anti_midpoint_v2,Argentina,"Neither good, nor bad",Quite bad,0,0.0
+Qwen/Qwen3-32B,anti_midpoint_v2,Argentina,"Neither good, nor bad",Rather bad,113,0.5485436893203883
+Qwen/Qwen3-32B,anti_midpoint_v2,Argentina,Quite bad,Very good,10,0.16129032258064516
+Qwen/Qwen3-32B,anti_midpoint_v2,Argentina,Quite bad,Quite good,6,0.0967741935483871
+Qwen/Qwen3-32B,anti_midpoint_v2,Argentina,Quite bad,"Neither good, nor bad",8,0.12903225806451613
+Qwen/Qwen3-32B,anti_midpoint_v2,Argentina,Quite bad,Quite bad,0,0.0
+Qwen/Qwen3-32B,anti_midpoint_v2,Argentina,Quite bad,Rather bad,38,0.6129032258064516
+Qwen/Qwen3-32B,anti_midpoint_v2,Argentina,Rather bad,Very good,1,0.05263157894736842
+Qwen/Qwen3-32B,anti_midpoint_v2,Argentina,Rather bad,Quite good,3,0.15789473684210525
+Qwen/Qwen3-32B,anti_midpoint_v2,Argentina,Rather bad,"Neither good, nor bad",3,0.15789473684210525
+Qwen/Qwen3-32B,anti_midpoint_v2,Argentina,Rather bad,Quite bad,1,0.05263157894736842
+Qwen/Qwen3-32B,anti_midpoint_v2,Argentina,Rather bad,Rather bad,11,0.5789473684210527
+Qwen/Qwen3-32B,anti_midpoint_v2,United States,Very good,Very good,31,0.5254237288135594
+Qwen/Qwen3-32B,anti_midpoint_v2,United States,Very good,Quite good,12,0.2033898305084746
+Qwen/Qwen3-32B,anti_midpoint_v2,United States,Very good,"Neither good, nor bad",4,0.06779661016949153
+Qwen/Qwen3-32B,anti_midpoint_v2,United States,Very good,Quite bad,0,0.0
+Qwen/Qwen3-32B,anti_midpoint_v2,United States,Very good,Rather bad,12,0.2033898305084746
+Qwen/Qwen3-32B,anti_midpoint_v2,United States,Quite good,Very good,67,0.5
+Qwen/Qwen3-32B,anti_midpoint_v2,United States,Quite good,Quite good,33,0.2462686567164179
+Qwen/Qwen3-32B,anti_midpoint_v2,United States,Quite good,"Neither good, nor bad",11,0.08208955223880597
+Qwen/Qwen3-32B,anti_midpoint_v2,United States,Quite good,Quite bad,0,0.0
+Qwen/Qwen3-32B,anti_midpoint_v2,United States,Quite good,Rather bad,23,0.17164179104477612
+Qwen/Qwen3-32B,anti_midpoint_v2,United States,"Neither good, nor bad",Very good,33,0.21428571428571427
+Qwen/Qwen3-32B,anti_midpoint_v2,United States,"Neither good, nor bad",Quite good,36,0.23376623376623376
+Qwen/Qwen3-32B,anti_midpoint_v2,United States,"Neither good, nor bad","Neither good, nor bad",25,0.16233766233766234
+Qwen/Qwen3-32B,anti_midpoint_v2,United States,"Neither good, nor bad",Quite bad,1,0.006493506493506494
+Qwen/Qwen3-32B,anti_midpoint_v2,United States,"Neither good, nor bad",Rather bad,59,0.38311688311688313
+Qwen/Qwen3-32B,anti_midpoint_v2,United States,Quite bad,Very good,3,0.06976744186046512
+Qwen/Qwen3-32B,anti_midpoint_v2,United States,Quite bad,Quite good,12,0.27906976744186046
+Qwen/Qwen3-32B,anti_midpoint_v2,United States,Quite bad,"Neither good, nor bad",4,0.09302325581395349
+Qwen/Qwen3-32B,anti_midpoint_v2,United States,Quite bad,Quite bad,0,0.0
+Qwen/Qwen3-32B,anti_midpoint_v2,United States,Quite bad,Rather bad,24,0.5581395348837209
+Qwen/Qwen3-32B,anti_midpoint_v2,United States,Rather bad,Very good,1,0.1
+Qwen/Qwen3-32B,anti_midpoint_v2,United States,Rather bad,Quite good,0,0.0
+Qwen/Qwen3-32B,anti_midpoint_v2,United States,Rather bad,"Neither good, nor bad",2,0.2
+Qwen/Qwen3-32B,anti_midpoint_v2,United States,Rather bad,Quite bad,1,0.1
+Qwen/Qwen3-32B,anti_midpoint_v2,United States,Rather bad,Rather bad,6,0.6
+Qwen/Qwen3-32B,anti_midpoint_v2,Uruguay,Very good,Very good,24,0.4444444444444444
+Qwen/Qwen3-32B,anti_midpoint_v2,Uruguay,Very good,Quite good,11,0.2037037037037037
+Qwen/Qwen3-32B,anti_midpoint_v2,Uruguay,Very good,"Neither good, nor bad",4,0.07407407407407407
+Qwen/Qwen3-32B,anti_midpoint_v2,Uruguay,Very good,Quite bad,1,0.018518518518518517
+Qwen/Qwen3-32B,anti_midpoint_v2,Uruguay,Very good,Rather bad,14,0.25925925925925924
+Qwen/Qwen3-32B,anti_midpoint_v2,Uruguay,Quite good,Very good,46,0.40707964601769914
+Qwen/Qwen3-32B,anti_midpoint_v2,Uruguay,Quite good,Quite good,16,0.1415929203539823
+Qwen/Qwen3-32B,anti_midpoint_v2,Uruguay,Quite good,"Neither good, nor bad",12,0.10619469026548672
+Qwen/Qwen3-32B,anti_midpoint_v2,Uruguay,Quite good,Quite bad,2,0.017699115044247787
+Qwen/Qwen3-32B,anti_midpoint_v2,Uruguay,Quite good,Rather bad,37,0.3274336283185841
+Qwen/Qwen3-32B,anti_midpoint_v2,Uruguay,"Neither good, nor bad",Very good,65,0.33163265306122447
+Qwen/Qwen3-32B,anti_midpoint_v2,Uruguay,"Neither good, nor bad",Quite good,33,0.1683673469387755
+Qwen/Qwen3-32B,anti_midpoint_v2,Uruguay,"Neither good, nor bad","Neither good, nor bad",30,0.15306122448979592
+Qwen/Qwen3-32B,anti_midpoint_v2,Uruguay,"Neither good, nor bad",Quite bad,0,0.0
+Qwen/Qwen3-32B,anti_midpoint_v2,Uruguay,"Neither good, nor bad",Rather bad,68,0.3469387755102041
+Qwen/Qwen3-32B,anti_midpoint_v2,Uruguay,Quite bad,Very good,8,0.2962962962962963
+Qwen/Qwen3-32B,anti_midpoint_v2,Uruguay,Quite bad,Quite good,4,0.14814814814814814
+Qwen/Qwen3-32B,anti_midpoint_v2,Uruguay,Quite bad,"Neither good, nor bad",3,0.1111111111111111
+Qwen/Qwen3-32B,anti_midpoint_v2,Uruguay,Quite bad,Quite bad,0,0.0
+Qwen/Qwen3-32B,anti_midpoint_v2,Uruguay,Quite bad,Rather bad,12,0.4444444444444444
+Qwen/Qwen3-32B,anti_midpoint_v2,Uruguay,Rather bad,Very good,2,0.2
+Qwen/Qwen3-32B,anti_midpoint_v2,Uruguay,Rather bad,Quite good,1,0.1
+Qwen/Qwen3-32B,anti_midpoint_v2,Uruguay,Rather bad,"Neither good, nor bad",2,0.2
+Qwen/Qwen3-32B,anti_midpoint_v2,Uruguay,Rather bad,Quite bad,0,0.0
+Qwen/Qwen3-32B,anti_midpoint_v2,Uruguay,Rather bad,Rather bad,5,0.5
+Qwen/Qwen3-32B,neutral_v1,Argentina,Very good,Very good,2,0.1111111111111111
+Qwen/Qwen3-32B,neutral_v1,Argentina,Very good,Quite good,4,0.2222222222222222
+Qwen/Qwen3-32B,neutral_v1,Argentina,Very good,"Neither good, nor bad",7,0.3888888888888889
+Qwen/Qwen3-32B,neutral_v1,Argentina,Very good,Quite bad,0,0.0
+Qwen/Qwen3-32B,neutral_v1,Argentina,Very good,Rather bad,5,0.2777777777777778
+Qwen/Qwen3-32B,neutral_v1,Argentina,Quite good,Very good,7,0.07368421052631578
+Qwen/Qwen3-32B,neutral_v1,Argentina,Quite good,Quite good,30,0.3157894736842105
+Qwen/Qwen3-32B,neutral_v1,Argentina,Quite good,"Neither good, nor bad",26,0.2736842105263158
+Qwen/Qwen3-32B,neutral_v1,Argentina,Quite good,Quite bad,1,0.010526315789473684
+Qwen/Qwen3-32B,neutral_v1,Argentina,Quite good,Rather bad,31,0.3263157894736842
+Qwen/Qwen3-32B,neutral_v1,Argentina,"Neither good, nor bad",Very good,9,0.043689320388349516
+Qwen/Qwen3-32B,neutral_v1,Argentina,"Neither good, nor bad",Quite good,55,0.2669902912621359
+Qwen/Qwen3-32B,neutral_v1,Argentina,"Neither good, nor bad","Neither good, nor bad",54,0.2621359223300971
+Qwen/Qwen3-32B,neutral_v1,Argentina,"Neither good, nor bad",Quite bad,9,0.043689320388349516
+Qwen/Qwen3-32B,neutral_v1,Argentina,"Neither good, nor bad",Rather bad,79,0.38349514563106796
+Qwen/Qwen3-32B,neutral_v1,Argentina,Quite bad,Very good,2,0.03225806451612903
+Qwen/Qwen3-32B,neutral_v1,Argentina,Quite bad,Quite good,14,0.22580645161290322
+Qwen/Qwen3-32B,neutral_v1,Argentina,Quite bad,"Neither good, nor bad",18,0.2903225806451613
+Qwen/Qwen3-32B,neutral_v1,Argentina,Quite bad,Quite bad,3,0.04838709677419355
+Qwen/Qwen3-32B,neutral_v1,Argentina,Quite bad,Rather bad,25,0.4032258064516129
+Qwen/Qwen3-32B,neutral_v1,Argentina,Rather bad,Very good,0,0.0
+Qwen/Qwen3-32B,neutral_v1,Argentina,Rather bad,Quite good,3,0.15789473684210525
+Qwen/Qwen3-32B,neutral_v1,Argentina,Rather bad,"Neither good, nor bad",5,0.2631578947368421
+Qwen/Qwen3-32B,neutral_v1,Argentina,Rather bad,Quite bad,1,0.05263157894736842
+Qwen/Qwen3-32B,neutral_v1,Argentina,Rather bad,Rather bad,10,0.5263157894736842
+Qwen/Qwen3-32B,neutral_v1,United States,Very good,Very good,26,0.4406779661016949
+Qwen/Qwen3-32B,neutral_v1,United States,Very good,Quite good,18,0.3050847457627119
+Qwen/Qwen3-32B,neutral_v1,United States,Very good,"Neither good, nor bad",6,0.1016949152542373
+Qwen/Qwen3-32B,neutral_v1,United States,Very good,Quite bad,1,0.01694915254237288
+Qwen/Qwen3-32B,neutral_v1,United States,Very good,Rather bad,8,0.13559322033898305
+Qwen/Qwen3-32B,neutral_v1,United States,Quite good,Very good,42,0.31343283582089554
+Qwen/Qwen3-32B,neutral_v1,United States,Quite good,Quite good,60,0.44776119402985076
+Qwen/Qwen3-32B,neutral_v1,United States,Quite good,"Neither good, nor bad",12,0.08955223880597014
+Qwen/Qwen3-32B,neutral_v1,United States,Quite good,Quite bad,3,0.022388059701492536
+Qwen/Qwen3-32B,neutral_v1,United States,Quite good,Rather bad,17,0.12686567164179105
+Qwen/Qwen3-32B,neutral_v1,United States,"Neither good, nor bad",Very good,20,0.12987012987012986
+Qwen/Qwen3-32B,neutral_v1,United States,"Neither good, nor bad",Quite good,61,0.3961038961038961
+Qwen/Qwen3-32B,neutral_v1,United States,"Neither good, nor bad","Neither good, nor bad",28,0.18181818181818182
+Qwen/Qwen3-32B,neutral_v1,United States,"Neither good, nor bad",Quite bad,2,0.012987012987012988
+Qwen/Qwen3-32B,neutral_v1,United States,"Neither good, nor bad",Rather bad,43,0.2792207792207792
+Qwen/Qwen3-32B,neutral_v1,United States,Quite bad,Very good,2,0.046511627906976744
+Qwen/Qwen3-32B,neutral_v1,United States,Quite bad,Quite good,11,0.2558139534883721
+Qwen/Qwen3-32B,neutral_v1,United States,Quite bad,"Neither good, nor bad",13,0.3023255813953488
+Qwen/Qwen3-32B,neutral_v1,United States,Quite bad,Quite bad,0,0.0
+Qwen/Qwen3-32B,neutral_v1,United States,Quite bad,Rather bad,17,0.3953488372093023
+Qwen/Qwen3-32B,neutral_v1,United States,Rather bad,Very good,1,0.1
+Qwen/Qwen3-32B,neutral_v1,United States,Rather bad,Quite good,2,0.2
+Qwen/Qwen3-32B,neutral_v1,United States,Rather bad,"Neither good, nor bad",1,0.1
+Qwen/Qwen3-32B,neutral_v1,United States,Rather bad,Quite bad,0,0.0
+Qwen/Qwen3-32B,neutral_v1,United States,Rather bad,Rather bad,6,0.6
+Qwen/Qwen3-32B,neutral_v1,Uruguay,Very good,Very good,15,0.2777777777777778
+Qwen/Qwen3-32B,neutral_v1,Uruguay,Very good,Quite good,18,0.3333333333333333
+Qwen/Qwen3-32B,neutral_v1,Uruguay,Very good,"Neither good, nor bad",10,0.18518518518518517
+Qwen/Qwen3-32B,neutral_v1,Uruguay,Very good,Quite bad,0,0.0
+Qwen/Qwen3-32B,neutral_v1,Uruguay,Very good,Rather bad,11,0.2037037037037037
+Qwen/Qwen3-32B,neutral_v1,Uruguay,Quite good,Very good,21,0.18584070796460178
+Qwen/Qwen3-32B,neutral_v1,Uruguay,Quite good,Quite good,37,0.3274336283185841
+Qwen/Qwen3-32B,neutral_v1,Uruguay,Quite good,"Neither good, nor bad",24,0.21238938053097345
+Qwen/Qwen3-32B,neutral_v1,Uruguay,Quite good,Quite bad,3,0.02654867256637168
+Qwen/Qwen3-32B,neutral_v1,Uruguay,Quite good,Rather bad,28,0.24778761061946902
+Qwen/Qwen3-32B,neutral_v1,Uruguay,"Neither good, nor bad",Very good,41,0.20918367346938777
+Qwen/Qwen3-32B,neutral_v1,Uruguay,"Neither good, nor bad",Quite good,56,0.2857142857142857
+Qwen/Qwen3-32B,neutral_v1,Uruguay,"Neither good, nor bad","Neither good, nor bad",43,0.2193877551020408
+Qwen/Qwen3-32B,neutral_v1,Uruguay,"Neither good, nor bad",Quite bad,3,0.015306122448979591
+Qwen/Qwen3-32B,neutral_v1,Uruguay,"Neither good, nor bad",Rather bad,53,0.27040816326530615
+Qwen/Qwen3-32B,neutral_v1,Uruguay,Quite bad,Very good,4,0.14814814814814814
+Qwen/Qwen3-32B,neutral_v1,Uruguay,Quite bad,Quite good,6,0.2222222222222222
+Qwen/Qwen3-32B,neutral_v1,Uruguay,Quite bad,"Neither good, nor bad",4,0.14814814814814814
+Qwen/Qwen3-32B,neutral_v1,Uruguay,Quite bad,Quite bad,0,0.0
+Qwen/Qwen3-32B,neutral_v1,Uruguay,Quite bad,Rather bad,13,0.48148148148148145
+Qwen/Qwen3-32B,neutral_v1,Uruguay,Rather bad,Very good,1,0.1
+Qwen/Qwen3-32B,neutral_v1,Uruguay,Rather bad,Quite good,4,0.4
+Qwen/Qwen3-32B,neutral_v1,Uruguay,Rather bad,"Neither good, nor bad",1,0.1
+Qwen/Qwen3-32B,neutral_v1,Uruguay,Rather bad,Quite bad,0,0.0
+Qwen/Qwen3-32B,neutral_v1,Uruguay,Rather bad,Rather bad,4,0.4
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Argentina,Very good,Very good,1,0.058823529411764705
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Argentina,Very good,Quite good,3,0.17647058823529413
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Argentina,Very good,"Neither good, nor bad",0,0.0
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Argentina,Very good,Quite bad,2,0.11764705882352941
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Argentina,Very good,Rather bad,11,0.6470588235294118
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Argentina,Quite good,Very good,7,0.07692307692307693
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Argentina,Quite good,Quite good,9,0.0989010989010989
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Argentina,Quite good,"Neither good, nor bad",2,0.02197802197802198
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Argentina,Quite good,Quite bad,17,0.18681318681318682
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Argentina,Quite good,Rather bad,56,0.6153846153846154
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Argentina,"Neither good, nor bad",Very good,7,0.035897435897435895
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Argentina,"Neither good, nor bad",Quite good,28,0.14358974358974358
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Argentina,"Neither good, nor bad","Neither good, nor bad",7,0.035897435897435895
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Argentina,"Neither good, nor bad",Quite bad,24,0.12307692307692308
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Argentina,"Neither good, nor bad",Rather bad,129,0.6615384615384615
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Argentina,Quite bad,Very good,2,0.03389830508474576
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Argentina,Quite bad,Quite good,8,0.13559322033898305
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Argentina,Quite bad,"Neither good, nor bad",2,0.03389830508474576
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Argentina,Quite bad,Quite bad,8,0.13559322033898305
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Argentina,Quite bad,Rather bad,39,0.6610169491525424
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Argentina,Rather bad,Very good,0,0.0
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Argentina,Rather bad,Quite good,1,0.05263157894736842
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Argentina,Rather bad,"Neither good, nor bad",1,0.05263157894736842
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Argentina,Rather bad,Quite bad,2,0.10526315789473684
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Argentina,Rather bad,Rather bad,15,0.7894736842105263
+Qwen/Qwen3.5-4B,anti_midpoint_v2,United States,Very good,Very good,21,0.38181818181818183
+Qwen/Qwen3.5-4B,anti_midpoint_v2,United States,Very good,Quite good,24,0.43636363636363634
+Qwen/Qwen3.5-4B,anti_midpoint_v2,United States,Very good,"Neither good, nor bad",1,0.01818181818181818
+Qwen/Qwen3.5-4B,anti_midpoint_v2,United States,Very good,Quite bad,4,0.07272727272727272
+Qwen/Qwen3.5-4B,anti_midpoint_v2,United States,Very good,Rather bad,5,0.09090909090909091
+Qwen/Qwen3.5-4B,anti_midpoint_v2,United States,Quite good,Very good,37,0.3008130081300813
+Qwen/Qwen3.5-4B,anti_midpoint_v2,United States,Quite good,Quite good,69,0.5609756097560976
+Qwen/Qwen3.5-4B,anti_midpoint_v2,United States,Quite good,"Neither good, nor bad",3,0.024390243902439025
+Qwen/Qwen3.5-4B,anti_midpoint_v2,United States,Quite good,Quite bad,3,0.024390243902439025
+Qwen/Qwen3.5-4B,anti_midpoint_v2,United States,Quite good,Rather bad,11,0.08943089430894309
+Qwen/Qwen3.5-4B,anti_midpoint_v2,United States,"Neither good, nor bad",Very good,25,0.1724137931034483
+Qwen/Qwen3.5-4B,anti_midpoint_v2,United States,"Neither good, nor bad",Quite good,70,0.4827586206896552
+Qwen/Qwen3.5-4B,anti_midpoint_v2,United States,"Neither good, nor bad","Neither good, nor bad",7,0.04827586206896552
+Qwen/Qwen3.5-4B,anti_midpoint_v2,United States,"Neither good, nor bad",Quite bad,11,0.07586206896551724
+Qwen/Qwen3.5-4B,anti_midpoint_v2,United States,"Neither good, nor bad",Rather bad,32,0.2206896551724138
+Qwen/Qwen3.5-4B,anti_midpoint_v2,United States,Quite bad,Very good,7,0.175
+Qwen/Qwen3.5-4B,anti_midpoint_v2,United States,Quite bad,Quite good,9,0.225
+Qwen/Qwen3.5-4B,anti_midpoint_v2,United States,Quite bad,"Neither good, nor bad",3,0.075
+Qwen/Qwen3.5-4B,anti_midpoint_v2,United States,Quite bad,Quite bad,2,0.05
+Qwen/Qwen3.5-4B,anti_midpoint_v2,United States,Quite bad,Rather bad,19,0.475
+Qwen/Qwen3.5-4B,anti_midpoint_v2,United States,Rather bad,Very good,1,0.1111111111111111
+Qwen/Qwen3.5-4B,anti_midpoint_v2,United States,Rather bad,Quite good,5,0.5555555555555556
+Qwen/Qwen3.5-4B,anti_midpoint_v2,United States,Rather bad,"Neither good, nor bad",0,0.0
+Qwen/Qwen3.5-4B,anti_midpoint_v2,United States,Rather bad,Quite bad,0,0.0
+Qwen/Qwen3.5-4B,anti_midpoint_v2,United States,Rather bad,Rather bad,3,0.3333333333333333
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Uruguay,Very good,Very good,8,0.16326530612244897
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Uruguay,Very good,Quite good,16,0.32653061224489793
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Uruguay,Very good,"Neither good, nor bad",2,0.04081632653061224
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Uruguay,Very good,Quite bad,2,0.04081632653061224
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Uruguay,Very good,Rather bad,21,0.42857142857142855
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Uruguay,Quite good,Very good,12,0.11764705882352941
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Uruguay,Quite good,Quite good,32,0.3137254901960784
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Uruguay,Quite good,"Neither good, nor bad",1,0.00980392156862745
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Uruguay,Quite good,Quite bad,14,0.13725490196078433
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Uruguay,Quite good,Rather bad,43,0.4215686274509804
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Uruguay,"Neither good, nor bad",Very good,25,0.1366120218579235
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Uruguay,"Neither good, nor bad",Quite good,49,0.2677595628415301
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Uruguay,"Neither good, nor bad","Neither good, nor bad",2,0.01092896174863388
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Uruguay,"Neither good, nor bad",Quite bad,18,0.09836065573770492
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Uruguay,"Neither good, nor bad",Rather bad,89,0.48633879781420764
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Uruguay,Quite bad,Very good,2,0.08333333333333333
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Uruguay,Quite bad,Quite good,5,0.20833333333333334
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Uruguay,Quite bad,"Neither good, nor bad",1,0.041666666666666664
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Uruguay,Quite bad,Quite bad,2,0.08333333333333333
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Uruguay,Quite bad,Rather bad,14,0.5833333333333334
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Uruguay,Rather bad,Very good,0,0.0
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Uruguay,Rather bad,Quite good,4,0.4
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Uruguay,Rather bad,"Neither good, nor bad",0,0.0
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Uruguay,Rather bad,Quite bad,1,0.1
+Qwen/Qwen3.5-4B,anti_midpoint_v2,Uruguay,Rather bad,Rather bad,5,0.5
+Qwen/Qwen3.5-4B,neutral_v1,Argentina,Very good,Very good,0,0.0
+Qwen/Qwen3.5-4B,neutral_v1,Argentina,Very good,Quite good,7,0.4375
+Qwen/Qwen3.5-4B,neutral_v1,Argentina,Very good,"Neither good, nor bad",4,0.25
+Qwen/Qwen3.5-4B,neutral_v1,Argentina,Very good,Quite bad,0,0.0
+Qwen/Qwen3.5-4B,neutral_v1,Argentina,Very good,Rather bad,5,0.3125
+Qwen/Qwen3.5-4B,neutral_v1,Argentina,Quite good,Very good,1,0.012195121951219513
+Qwen/Qwen3.5-4B,neutral_v1,Argentina,Quite good,Quite good,30,0.36585365853658536
+Qwen/Qwen3.5-4B,neutral_v1,Argentina,Quite good,"Neither good, nor bad",13,0.15853658536585366
+Qwen/Qwen3.5-4B,neutral_v1,Argentina,Quite good,Quite bad,12,0.14634146341463414
+Qwen/Qwen3.5-4B,neutral_v1,Argentina,Quite good,Rather bad,26,0.3170731707317073
+Qwen/Qwen3.5-4B,neutral_v1,Argentina,"Neither good, nor bad",Very good,3,0.01694915254237288
+Qwen/Qwen3.5-4B,neutral_v1,Argentina,"Neither good, nor bad",Quite good,47,0.2655367231638418
+Qwen/Qwen3.5-4B,neutral_v1,Argentina,"Neither good, nor bad","Neither good, nor bad",26,0.14689265536723164
+Qwen/Qwen3.5-4B,neutral_v1,Argentina,"Neither good, nor bad",Quite bad,35,0.1977401129943503
+Qwen/Qwen3.5-4B,neutral_v1,Argentina,"Neither good, nor bad",Rather bad,66,0.3728813559322034
+Qwen/Qwen3.5-4B,neutral_v1,Argentina,Quite bad,Very good,2,0.03571428571428571
+Qwen/Qwen3.5-4B,neutral_v1,Argentina,Quite bad,Quite good,8,0.14285714285714285
+Qwen/Qwen3.5-4B,neutral_v1,Argentina,Quite bad,"Neither good, nor bad",11,0.19642857142857142
+Qwen/Qwen3.5-4B,neutral_v1,Argentina,Quite bad,Quite bad,8,0.14285714285714285
+Qwen/Qwen3.5-4B,neutral_v1,Argentina,Quite bad,Rather bad,27,0.48214285714285715
+Qwen/Qwen3.5-4B,neutral_v1,Argentina,Rather bad,Very good,0,0.0
+Qwen/Qwen3.5-4B,neutral_v1,Argentina,Rather bad,Quite good,5,0.2777777777777778
+Qwen/Qwen3.5-4B,neutral_v1,Argentina,Rather bad,"Neither good, nor bad",4,0.2222222222222222
+Qwen/Qwen3.5-4B,neutral_v1,Argentina,Rather bad,Quite bad,5,0.2777777777777778
+Qwen/Qwen3.5-4B,neutral_v1,Argentina,Rather bad,Rather bad,4,0.2222222222222222
+Qwen/Qwen3.5-4B,neutral_v1,United States,Very good,Very good,21,0.42
+Qwen/Qwen3.5-4B,neutral_v1,United States,Very good,Quite good,17,0.34
+Qwen/Qwen3.5-4B,neutral_v1,United States,Very good,"Neither good, nor bad",5,0.1
+Qwen/Qwen3.5-4B,neutral_v1,United States,Very good,Quite bad,1,0.02
+Qwen/Qwen3.5-4B,neutral_v1,United States,Very good,Rather bad,6,0.12
+Qwen/Qwen3.5-4B,neutral_v1,United States,Quite good,Very good,21,0.2
+Qwen/Qwen3.5-4B,neutral_v1,United States,Quite good,Quite good,59,0.5619047619047619
+Qwen/Qwen3.5-4B,neutral_v1,United States,Quite good,"Neither good, nor bad",11,0.10476190476190476
+Qwen/Qwen3.5-4B,neutral_v1,United States,Quite good,Quite bad,4,0.0380952380952381
+Qwen/Qwen3.5-4B,neutral_v1,United States,Quite good,Rather bad,10,0.09523809523809523
+Qwen/Qwen3.5-4B,neutral_v1,United States,"Neither good, nor bad",Very good,11,0.08527131782945736
+Qwen/Qwen3.5-4B,neutral_v1,United States,"Neither good, nor bad",Quite good,63,0.4883720930232558
+Qwen/Qwen3.5-4B,neutral_v1,United States,"Neither good, nor bad","Neither good, nor bad",20,0.15503875968992248
+Qwen/Qwen3.5-4B,neutral_v1,United States,"Neither good, nor bad",Quite bad,11,0.08527131782945736
+Qwen/Qwen3.5-4B,neutral_v1,United States,"Neither good, nor bad",Rather bad,24,0.18604651162790697
+Qwen/Qwen3.5-4B,neutral_v1,United States,Quite bad,Very good,0,0.0
+Qwen/Qwen3.5-4B,neutral_v1,United States,Quite bad,Quite good,14,0.3684210526315789
+Qwen/Qwen3.5-4B,neutral_v1,United States,Quite bad,"Neither good, nor bad",7,0.18421052631578946
+Qwen/Qwen3.5-4B,neutral_v1,United States,Quite bad,Quite bad,6,0.15789473684210525
+Qwen/Qwen3.5-4B,neutral_v1,United States,Quite bad,Rather bad,11,0.2894736842105263
+Qwen/Qwen3.5-4B,neutral_v1,United States,Rather bad,Very good,0,0.0
+Qwen/Qwen3.5-4B,neutral_v1,United States,Rather bad,Quite good,3,0.3333333333333333
+Qwen/Qwen3.5-4B,neutral_v1,United States,Rather bad,"Neither good, nor bad",2,0.2222222222222222
+Qwen/Qwen3.5-4B,neutral_v1,United States,Rather bad,Quite bad,2,0.2222222222222222
+Qwen/Qwen3.5-4B,neutral_v1,United States,Rather bad,Rather bad,2,0.2222222222222222
+Qwen/Qwen3.5-4B,neutral_v1,Uruguay,Very good,Very good,5,0.12195121951219512
+Qwen/Qwen3.5-4B,neutral_v1,Uruguay,Very good,Quite good,21,0.5121951219512195
+Qwen/Qwen3.5-4B,neutral_v1,Uruguay,Very good,"Neither good, nor bad",4,0.0975609756097561
+Qwen/Qwen3.5-4B,neutral_v1,Uruguay,Very good,Quite bad,5,0.12195121951219512
+Qwen/Qwen3.5-4B,neutral_v1,Uruguay,Very good,Rather bad,6,0.14634146341463414
+Qwen/Qwen3.5-4B,neutral_v1,Uruguay,Quite good,Very good,4,0.04395604395604396
+Qwen/Qwen3.5-4B,neutral_v1,Uruguay,Quite good,Quite good,48,0.5274725274725275
+Qwen/Qwen3.5-4B,neutral_v1,Uruguay,Quite good,"Neither good, nor bad",6,0.06593406593406594
+Qwen/Qwen3.5-4B,neutral_v1,Uruguay,Quite good,Quite bad,15,0.16483516483516483
+Qwen/Qwen3.5-4B,neutral_v1,Uruguay,Quite good,Rather bad,18,0.1978021978021978
+Qwen/Qwen3.5-4B,neutral_v1,Uruguay,"Neither good, nor bad",Very good,12,0.07272727272727272
+Qwen/Qwen3.5-4B,neutral_v1,Uruguay,"Neither good, nor bad",Quite good,77,0.4666666666666667
+Qwen/Qwen3.5-4B,neutral_v1,Uruguay,"Neither good, nor bad","Neither good, nor bad",16,0.09696969696969697
+Qwen/Qwen3.5-4B,neutral_v1,Uruguay,"Neither good, nor bad",Quite bad,24,0.14545454545454545
+Qwen/Qwen3.5-4B,neutral_v1,Uruguay,"Neither good, nor bad",Rather bad,36,0.21818181818181817
+Qwen/Qwen3.5-4B,neutral_v1,Uruguay,Quite bad,Very good,0,0.0
+Qwen/Qwen3.5-4B,neutral_v1,Uruguay,Quite bad,Quite good,9,0.36
+Qwen/Qwen3.5-4B,neutral_v1,Uruguay,Quite bad,"Neither good, nor bad",3,0.12
+Qwen/Qwen3.5-4B,neutral_v1,Uruguay,Quite bad,Quite bad,7,0.28
+Qwen/Qwen3.5-4B,neutral_v1,Uruguay,Quite bad,Rather bad,6,0.24
+Qwen/Qwen3.5-4B,neutral_v1,Uruguay,Rather bad,Very good,1,0.1111111111111111
+Qwen/Qwen3.5-4B,neutral_v1,Uruguay,Rather bad,Quite good,3,0.3333333333333333
+Qwen/Qwen3.5-4B,neutral_v1,Uruguay,Rather bad,"Neither good, nor bad",1,0.1111111111111111
+Qwen/Qwen3.5-4B,neutral_v1,Uruguay,Rather bad,Quite bad,0,0.0
+Qwen/Qwen3.5-4B,neutral_v1,Uruguay,Rather bad,Rather bad,4,0.4444444444444444
+gpt-6-luna,anti_midpoint_v2,Argentina,Very good,Very good,0,0.0
+gpt-6-luna,anti_midpoint_v2,Argentina,Very good,Quite good,10,0.5555555555555556
+gpt-6-luna,anti_midpoint_v2,Argentina,Very good,"Neither good, nor bad",5,0.2777777777777778
+gpt-6-luna,anti_midpoint_v2,Argentina,Very good,Quite bad,3,0.16666666666666666
+gpt-6-luna,anti_midpoint_v2,Argentina,Very good,Rather bad,0,0.0
+gpt-6-luna,anti_midpoint_v2,Argentina,Quite good,Very good,0,0.0
+gpt-6-luna,anti_midpoint_v2,Argentina,Quite good,Quite good,39,0.4105263157894737
+gpt-6-luna,anti_midpoint_v2,Argentina,Quite good,"Neither good, nor bad",29,0.30526315789473685
+gpt-6-luna,anti_midpoint_v2,Argentina,Quite good,Quite bad,21,0.22105263157894736
+gpt-6-luna,anti_midpoint_v2,Argentina,Quite good,Rather bad,6,0.06315789473684211
+gpt-6-luna,anti_midpoint_v2,Argentina,"Neither good, nor bad",Very good,0,0.0
+gpt-6-luna,anti_midpoint_v2,Argentina,"Neither good, nor bad",Quite good,80,0.3883495145631068
+gpt-6-luna,anti_midpoint_v2,Argentina,"Neither good, nor bad","Neither good, nor bad",60,0.2912621359223301
+gpt-6-luna,anti_midpoint_v2,Argentina,"Neither good, nor bad",Quite bad,48,0.23300970873786409
+gpt-6-luna,anti_midpoint_v2,Argentina,"Neither good, nor bad",Rather bad,18,0.08737864077669903
+gpt-6-luna,anti_midpoint_v2,Argentina,Quite bad,Very good,0,0.0
+gpt-6-luna,anti_midpoint_v2,Argentina,Quite bad,Quite good,24,0.3870967741935484
+gpt-6-luna,anti_midpoint_v2,Argentina,Quite bad,"Neither good, nor bad",18,0.2903225806451613
+gpt-6-luna,anti_midpoint_v2,Argentina,Quite bad,Quite bad,14,0.22580645161290322
+gpt-6-luna,anti_midpoint_v2,Argentina,Quite bad,Rather bad,6,0.0967741935483871
+gpt-6-luna,anti_midpoint_v2,Argentina,Rather bad,Very good,0,0.0
+gpt-6-luna,anti_midpoint_v2,Argentina,Rather bad,Quite good,6,0.3157894736842105
+gpt-6-luna,anti_midpoint_v2,Argentina,Rather bad,"Neither good, nor bad",5,0.2631578947368421
+gpt-6-luna,anti_midpoint_v2,Argentina,Rather bad,Quite bad,5,0.2631578947368421
+gpt-6-luna,anti_midpoint_v2,Argentina,Rather bad,Rather bad,3,0.15789473684210525
+gpt-6-luna,anti_midpoint_v2,United States,Very good,Very good,9,0.15254237288135594
+gpt-6-luna,anti_midpoint_v2,United States,Very good,Quite good,45,0.7627118644067796
+gpt-6-luna,anti_midpoint_v2,United States,Very good,"Neither good, nor bad",0,0.0
+gpt-6-luna,anti_midpoint_v2,United States,Very good,Quite bad,1,0.01694915254237288
+gpt-6-luna,anti_midpoint_v2,United States,Very good,Rather bad,4,0.06779661016949153
+gpt-6-luna,anti_midpoint_v2,United States,Quite good,Very good,17,0.12686567164179105
+gpt-6-luna,anti_midpoint_v2,United States,Quite good,Quite good,104,0.7761194029850746
+gpt-6-luna,anti_midpoint_v2,United States,Quite good,"Neither good, nor bad",3,0.022388059701492536
+gpt-6-luna,anti_midpoint_v2,United States,Quite good,Quite bad,5,0.03731343283582089
+gpt-6-luna,anti_midpoint_v2,United States,Quite good,Rather bad,5,0.03731343283582089
+gpt-6-luna,anti_midpoint_v2,United States,"Neither good, nor bad",Very good,7,0.045454545454545456
+gpt-6-luna,anti_midpoint_v2,United States,"Neither good, nor bad",Quite good,122,0.7922077922077922
+gpt-6-luna,anti_midpoint_v2,United States,"Neither good, nor bad","Neither good, nor bad",3,0.01948051948051948
+gpt-6-luna,anti_midpoint_v2,United States,"Neither good, nor bad",Quite bad,5,0.032467532467532464
+gpt-6-luna,anti_midpoint_v2,United States,"Neither good, nor bad",Rather bad,17,0.11038961038961038
+gpt-6-luna,anti_midpoint_v2,United States,Quite bad,Very good,0,0.0
+gpt-6-luna,anti_midpoint_v2,United States,Quite bad,Quite good,33,0.7674418604651163
+gpt-6-luna,anti_midpoint_v2,United States,Quite bad,"Neither good, nor bad",0,0.0
+gpt-6-luna,anti_midpoint_v2,United States,Quite bad,Quite bad,1,0.023255813953488372
+gpt-6-luna,anti_midpoint_v2,United States,Quite bad,Rather bad,9,0.20930232558139536
+gpt-6-luna,anti_midpoint_v2,United States,Rather bad,Very good,0,0.0
+gpt-6-luna,anti_midpoint_v2,United States,Rather bad,Quite good,6,0.6
+gpt-6-luna,anti_midpoint_v2,United States,Rather bad,"Neither good, nor bad",0,0.0
+gpt-6-luna,anti_midpoint_v2,United States,Rather bad,Quite bad,0,0.0
+gpt-6-luna,anti_midpoint_v2,United States,Rather bad,Rather bad,4,0.4
+gpt-6-luna,anti_midpoint_v2,Uruguay,Very good,Very good,1,0.018518518518518517
+gpt-6-luna,anti_midpoint_v2,Uruguay,Very good,Quite good,39,0.7222222222222222
+gpt-6-luna,anti_midpoint_v2,Uruguay,Very good,"Neither good, nor bad",5,0.09259259259259259
+gpt-6-luna,anti_midpoint_v2,Uruguay,Very good,Quite bad,5,0.09259259259259259
+gpt-6-luna,anti_midpoint_v2,Uruguay,Very good,Rather bad,4,0.07407407407407407
+gpt-6-luna,anti_midpoint_v2,Uruguay,Quite good,Very good,0,0.0
+gpt-6-luna,anti_midpoint_v2,Uruguay,Quite good,Quite good,73,0.6460176991150443
+gpt-6-luna,anti_midpoint_v2,Uruguay,Quite good,"Neither good, nor bad",20,0.17699115044247787
+gpt-6-luna,anti_midpoint_v2,Uruguay,Quite good,Quite bad,18,0.1592920353982301
+gpt-6-luna,anti_midpoint_v2,Uruguay,Quite good,Rather bad,2,0.017699115044247787
+gpt-6-luna,anti_midpoint_v2,Uruguay,"Neither good, nor bad",Very good,1,0.00510204081632653
+gpt-6-luna,anti_midpoint_v2,Uruguay,"Neither good, nor bad",Quite good,121,0.6173469387755102
+gpt-6-luna,anti_midpoint_v2,Uruguay,"Neither good, nor bad","Neither good, nor bad",26,0.1326530612244898
+gpt-6-luna,anti_midpoint_v2,Uruguay,"Neither good, nor bad",Quite bad,32,0.16326530612244897
+gpt-6-luna,anti_midpoint_v2,Uruguay,"Neither good, nor bad",Rather bad,16,0.08163265306122448
+gpt-6-luna,anti_midpoint_v2,Uruguay,Quite bad,Very good,0,0.0
+gpt-6-luna,anti_midpoint_v2,Uruguay,Quite bad,Quite good,10,0.37037037037037035
+gpt-6-luna,anti_midpoint_v2,Uruguay,Quite bad,"Neither good, nor bad",7,0.25925925925925924
+gpt-6-luna,anti_midpoint_v2,Uruguay,Quite bad,Quite bad,6,0.2222222222222222
+gpt-6-luna,anti_midpoint_v2,Uruguay,Quite bad,Rather bad,4,0.14814814814814814
+gpt-6-luna,anti_midpoint_v2,Uruguay,Rather bad,Very good,0,0.0
+gpt-6-luna,anti_midpoint_v2,Uruguay,Rather bad,Quite good,3,0.3
+gpt-6-luna,anti_midpoint_v2,Uruguay,Rather bad,"Neither good, nor bad",3,0.3
+gpt-6-luna,anti_midpoint_v2,Uruguay,Rather bad,Quite bad,2,0.2
+gpt-6-luna,anti_midpoint_v2,Uruguay,Rather bad,Rather bad,2,0.2
+gpt-6-luna,neutral_v1,Argentina,Very good,Very good,0,0.0
+gpt-6-luna,neutral_v1,Argentina,Very good,Quite good,6,0.3333333333333333
+gpt-6-luna,neutral_v1,Argentina,Very good,"Neither good, nor bad",10,0.5555555555555556
+gpt-6-luna,neutral_v1,Argentina,Very good,Quite bad,2,0.1111111111111111
+gpt-6-luna,neutral_v1,Argentina,Very good,Rather bad,0,0.0
+gpt-6-luna,neutral_v1,Argentina,Quite good,Very good,0,0.0
+gpt-6-luna,neutral_v1,Argentina,Quite good,Quite good,31,0.3263157894736842
+gpt-6-luna,neutral_v1,Argentina,Quite good,"Neither good, nor bad",52,0.5473684210526316
+gpt-6-luna,neutral_v1,Argentina,Quite good,Quite bad,12,0.12631578947368421
+gpt-6-luna,neutral_v1,Argentina,Quite good,Rather bad,0,0.0
+gpt-6-luna,neutral_v1,Argentina,"Neither good, nor bad",Very good,0,0.0
+gpt-6-luna,neutral_v1,Argentina,"Neither good, nor bad",Quite good,91,0.441747572815534
+gpt-6-luna,neutral_v1,Argentina,"Neither good, nor bad","Neither good, nor bad",82,0.39805825242718446
+gpt-6-luna,neutral_v1,Argentina,"Neither good, nor bad",Quite bad,31,0.15048543689320387
+gpt-6-luna,neutral_v1,Argentina,"Neither good, nor bad",Rather bad,2,0.009708737864077669
+gpt-6-luna,neutral_v1,Argentina,Quite bad,Very good,0,0.0
+gpt-6-luna,neutral_v1,Argentina,Quite bad,Quite good,26,0.41935483870967744
+gpt-6-luna,neutral_v1,Argentina,Quite bad,"Neither good, nor bad",24,0.3870967741935484
+gpt-6-luna,neutral_v1,Argentina,Quite bad,Quite bad,12,0.1935483870967742
+gpt-6-luna,neutral_v1,Argentina,Quite bad,Rather bad,0,0.0
+gpt-6-luna,neutral_v1,Argentina,Rather bad,Very good,0,0.0
+gpt-6-luna,neutral_v1,Argentina,Rather bad,Quite good,6,0.3157894736842105
+gpt-6-luna,neutral_v1,Argentina,Rather bad,"Neither good, nor bad",8,0.42105263157894735
+gpt-6-luna,neutral_v1,Argentina,Rather bad,Quite bad,5,0.2631578947368421
+gpt-6-luna,neutral_v1,Argentina,Rather bad,Rather bad,0,0.0
+gpt-6-luna,neutral_v1,United States,Very good,Very good,6,0.1016949152542373
+gpt-6-luna,neutral_v1,United States,Very good,Quite good,45,0.7627118644067796
+gpt-6-luna,neutral_v1,United States,Very good,"Neither good, nor bad",4,0.06779661016949153
+gpt-6-luna,neutral_v1,United States,Very good,Quite bad,4,0.06779661016949153
+gpt-6-luna,neutral_v1,United States,Very good,Rather bad,0,0.0
+gpt-6-luna,neutral_v1,United States,Quite good,Very good,7,0.05223880597014925
+gpt-6-luna,neutral_v1,United States,Quite good,Quite good,110,0.8208955223880597
+gpt-6-luna,neutral_v1,United States,Quite good,"Neither good, nor bad",12,0.08955223880597014
+gpt-6-luna,neutral_v1,United States,Quite good,Quite bad,5,0.03731343283582089
+gpt-6-luna,neutral_v1,United States,Quite good,Rather bad,0,0.0
+gpt-6-luna,neutral_v1,United States,"Neither good, nor bad",Very good,2,0.012987012987012988
+gpt-6-luna,neutral_v1,United States,"Neither good, nor bad",Quite good,107,0.6948051948051948
+gpt-6-luna,neutral_v1,United States,"Neither good, nor bad","Neither good, nor bad",27,0.17532467532467533
+gpt-6-luna,neutral_v1,United States,"Neither good, nor bad",Quite bad,18,0.11688311688311688
+gpt-6-luna,neutral_v1,United States,"Neither good, nor bad",Rather bad,0,0.0
+gpt-6-luna,neutral_v1,United States,Quite bad,Very good,0,0.0
+gpt-6-luna,neutral_v1,United States,Quite bad,Quite good,30,0.6976744186046512
+gpt-6-luna,neutral_v1,United States,Quite bad,"Neither good, nor bad",3,0.06976744186046512
+gpt-6-luna,neutral_v1,United States,Quite bad,Quite bad,8,0.18604651162790697
+gpt-6-luna,neutral_v1,United States,Quite bad,Rather bad,2,0.046511627906976744
+gpt-6-luna,neutral_v1,United States,Rather bad,Very good,0,0.0
+gpt-6-luna,neutral_v1,United States,Rather bad,Quite good,5,0.5
+gpt-6-luna,neutral_v1,United States,Rather bad,"Neither good, nor bad",1,0.1
+gpt-6-luna,neutral_v1,United States,Rather bad,Quite bad,3,0.3
+gpt-6-luna,neutral_v1,United States,Rather bad,Rather bad,1,0.1
+gpt-6-luna,neutral_v1,Uruguay,Very good,Very good,0,0.0
+gpt-6-luna,neutral_v1,Uruguay,Very good,Quite good,33,0.6111111111111112
+gpt-6-luna,neutral_v1,Uruguay,Very good,"Neither good, nor bad",13,0.24074074074074073
+gpt-6-luna,neutral_v1,Uruguay,Very good,Quite bad,8,0.14814814814814814
+gpt-6-luna,neutral_v1,Uruguay,Very good,Rather bad,0,0.0
+gpt-6-luna,neutral_v1,Uruguay,Quite good,Very good,0,0.0
+gpt-6-luna,neutral_v1,Uruguay,Quite good,Quite good,66,0.584070796460177
+gpt-6-luna,neutral_v1,Uruguay,Quite good,"Neither good, nor bad",29,0.25663716814159293
+gpt-6-luna,neutral_v1,Uruguay,Quite good,Quite bad,18,0.1592920353982301
+gpt-6-luna,neutral_v1,Uruguay,Quite good,Rather bad,0,0.0
+gpt-6-luna,neutral_v1,Uruguay,"Neither good, nor bad",Very good,0,0.0
+gpt-6-luna,neutral_v1,Uruguay,"Neither good, nor bad",Quite good,98,0.5
+gpt-6-luna,neutral_v1,Uruguay,"Neither good, nor bad","Neither good, nor bad",57,0.29081632653061223
+gpt-6-luna,neutral_v1,Uruguay,"Neither good, nor bad",Quite bad,40,0.20408163265306123
+gpt-6-luna,neutral_v1,Uruguay,"Neither good, nor bad",Rather bad,1,0.00510204081632653
+gpt-6-luna,neutral_v1,Uruguay,Quite bad,Very good,0,0.0
+gpt-6-luna,neutral_v1,Uruguay,Quite bad,Quite good,10,0.37037037037037035
+gpt-6-luna,neutral_v1,Uruguay,Quite bad,"Neither good, nor bad",8,0.2962962962962963
+gpt-6-luna,neutral_v1,Uruguay,Quite bad,Quite bad,9,0.3333333333333333
+gpt-6-luna,neutral_v1,Uruguay,Quite bad,Rather bad,0,0.0
+gpt-6-luna,neutral_v1,Uruguay,Rather bad,Very good,0,0.0
+gpt-6-luna,neutral_v1,Uruguay,Rather bad,Quite good,2,0.2
+gpt-6-luna,neutral_v1,Uruguay,Rather bad,"Neither good, nor bad",5,0.5
+gpt-6-luna,neutral_v1,Uruguay,Rather bad,Quite bad,3,0.3
+gpt-6-luna,neutral_v1,Uruguay,Rather bad,Rather bad,0,0.0
+openai/gpt-oss-120b,anti_midpoint_v2,Argentina,Very good,Very good,4,0.2222222222222222
+openai/gpt-oss-120b,anti_midpoint_v2,Argentina,Very good,Quite good,5,0.2777777777777778
+openai/gpt-oss-120b,anti_midpoint_v2,Argentina,Very good,"Neither good, nor bad",0,0.0
+openai/gpt-oss-120b,anti_midpoint_v2,Argentina,Very good,Quite bad,4,0.2222222222222222
+openai/gpt-oss-120b,anti_midpoint_v2,Argentina,Very good,Rather bad,5,0.2777777777777778
+openai/gpt-oss-120b,anti_midpoint_v2,Argentina,Quite good,Very good,11,0.11578947368421053
+openai/gpt-oss-120b,anti_midpoint_v2,Argentina,Quite good,Quite good,42,0.4421052631578947
+openai/gpt-oss-120b,anti_midpoint_v2,Argentina,Quite good,"Neither good, nor bad",2,0.021052631578947368
+openai/gpt-oss-120b,anti_midpoint_v2,Argentina,Quite good,Quite bad,16,0.16842105263157894
+openai/gpt-oss-120b,anti_midpoint_v2,Argentina,Quite good,Rather bad,24,0.25263157894736843
+openai/gpt-oss-120b,anti_midpoint_v2,Argentina,"Neither good, nor bad",Very good,21,0.10194174757281553
+openai/gpt-oss-120b,anti_midpoint_v2,Argentina,"Neither good, nor bad",Quite good,75,0.3640776699029126
+openai/gpt-oss-120b,anti_midpoint_v2,Argentina,"Neither good, nor bad","Neither good, nor bad",9,0.043689320388349516
+openai/gpt-oss-120b,anti_midpoint_v2,Argentina,"Neither good, nor bad",Quite bad,37,0.1796116504854369
+openai/gpt-oss-120b,anti_midpoint_v2,Argentina,"Neither good, nor bad",Rather bad,64,0.3106796116504854
+openai/gpt-oss-120b,anti_midpoint_v2,Argentina,Quite bad,Very good,5,0.08064516129032258
+openai/gpt-oss-120b,anti_midpoint_v2,Argentina,Quite bad,Quite good,20,0.3225806451612903
+openai/gpt-oss-120b,anti_midpoint_v2,Argentina,Quite bad,"Neither good, nor bad",4,0.06451612903225806
+openai/gpt-oss-120b,anti_midpoint_v2,Argentina,Quite bad,Quite bad,14,0.22580645161290322
+openai/gpt-oss-120b,anti_midpoint_v2,Argentina,Quite bad,Rather bad,19,0.3064516129032258
+openai/gpt-oss-120b,anti_midpoint_v2,Argentina,Rather bad,Very good,0,0.0
+openai/gpt-oss-120b,anti_midpoint_v2,Argentina,Rather bad,Quite good,9,0.47368421052631576
+openai/gpt-oss-120b,anti_midpoint_v2,Argentina,Rather bad,"Neither good, nor bad",0,0.0
+openai/gpt-oss-120b,anti_midpoint_v2,Argentina,Rather bad,Quite bad,2,0.10526315789473684
+openai/gpt-oss-120b,anti_midpoint_v2,Argentina,Rather bad,Rather bad,8,0.42105263157894735
+openai/gpt-oss-120b,anti_midpoint_v2,United States,Very good,Very good,31,0.5254237288135594
+openai/gpt-oss-120b,anti_midpoint_v2,United States,Very good,Quite good,17,0.288135593220339
+openai/gpt-oss-120b,anti_midpoint_v2,United States,Very good,"Neither good, nor bad",0,0.0
+openai/gpt-oss-120b,anti_midpoint_v2,United States,Very good,Quite bad,7,0.11864406779661017
+openai/gpt-oss-120b,anti_midpoint_v2,United States,Very good,Rather bad,4,0.06779661016949153
+openai/gpt-oss-120b,anti_midpoint_v2,United States,Quite good,Very good,69,0.5149253731343284
+openai/gpt-oss-120b,anti_midpoint_v2,United States,Quite good,Quite good,45,0.3358208955223881
+openai/gpt-oss-120b,anti_midpoint_v2,United States,Quite good,"Neither good, nor bad",0,0.0
+openai/gpt-oss-120b,anti_midpoint_v2,United States,Quite good,Quite bad,12,0.08955223880597014
+openai/gpt-oss-120b,anti_midpoint_v2,United States,Quite good,Rather bad,8,0.05970149253731343
+openai/gpt-oss-120b,anti_midpoint_v2,United States,"Neither good, nor bad",Very good,35,0.22727272727272727
+openai/gpt-oss-120b,anti_midpoint_v2,United States,"Neither good, nor bad",Quite good,66,0.42857142857142855
+openai/gpt-oss-120b,anti_midpoint_v2,United States,"Neither good, nor bad","Neither good, nor bad",5,0.032467532467532464
+openai/gpt-oss-120b,anti_midpoint_v2,United States,"Neither good, nor bad",Quite bad,26,0.16883116883116883
+openai/gpt-oss-120b,anti_midpoint_v2,United States,"Neither good, nor bad",Rather bad,22,0.14285714285714285
+openai/gpt-oss-120b,anti_midpoint_v2,United States,Quite bad,Very good,4,0.09302325581395349
+openai/gpt-oss-120b,anti_midpoint_v2,United States,Quite bad,Quite good,14,0.32558139534883723
+openai/gpt-oss-120b,anti_midpoint_v2,United States,Quite bad,"Neither good, nor bad",2,0.046511627906976744
+openai/gpt-oss-120b,anti_midpoint_v2,United States,Quite bad,Quite bad,11,0.2558139534883721
+openai/gpt-oss-120b,anti_midpoint_v2,United States,Quite bad,Rather bad,12,0.27906976744186046
+openai/gpt-oss-120b,anti_midpoint_v2,United States,Rather bad,Very good,1,0.1
+openai/gpt-oss-120b,anti_midpoint_v2,United States,Rather bad,Quite good,3,0.3
+openai/gpt-oss-120b,anti_midpoint_v2,United States,Rather bad,"Neither good, nor bad",0,0.0
+openai/gpt-oss-120b,anti_midpoint_v2,United States,Rather bad,Quite bad,2,0.2
+openai/gpt-oss-120b,anti_midpoint_v2,United States,Rather bad,Rather bad,4,0.4
+openai/gpt-oss-120b,anti_midpoint_v2,Uruguay,Very good,Very good,20,0.37037037037037035
+openai/gpt-oss-120b,anti_midpoint_v2,Uruguay,Very good,Quite good,23,0.42592592592592593
+openai/gpt-oss-120b,anti_midpoint_v2,Uruguay,Very good,"Neither good, nor bad",0,0.0
+openai/gpt-oss-120b,anti_midpoint_v2,Uruguay,Very good,Quite bad,3,0.05555555555555555
+openai/gpt-oss-120b,anti_midpoint_v2,Uruguay,Very good,Rather bad,8,0.14814814814814814
+openai/gpt-oss-120b,anti_midpoint_v2,Uruguay,Quite good,Very good,38,0.336283185840708
+openai/gpt-oss-120b,anti_midpoint_v2,Uruguay,Quite good,Quite good,45,0.39823008849557523
+openai/gpt-oss-120b,anti_midpoint_v2,Uruguay,Quite good,"Neither good, nor bad",0,0.0
+openai/gpt-oss-120b,anti_midpoint_v2,Uruguay,Quite good,Quite bad,12,0.10619469026548672
+openai/gpt-oss-120b,anti_midpoint_v2,Uruguay,Quite good,Rather bad,18,0.1592920353982301
+openai/gpt-oss-120b,anti_midpoint_v2,Uruguay,"Neither good, nor bad",Very good,57,0.29081632653061223
+openai/gpt-oss-120b,anti_midpoint_v2,Uruguay,"Neither good, nor bad",Quite good,74,0.37755102040816324
+openai/gpt-oss-120b,anti_midpoint_v2,Uruguay,"Neither good, nor bad","Neither good, nor bad",4,0.02040816326530612
+openai/gpt-oss-120b,anti_midpoint_v2,Uruguay,"Neither good, nor bad",Quite bad,17,0.08673469387755102
+openai/gpt-oss-120b,anti_midpoint_v2,Uruguay,"Neither good, nor bad",Rather bad,44,0.22448979591836735
+openai/gpt-oss-120b,anti_midpoint_v2,Uruguay,Quite bad,Very good,4,0.14814814814814814
+openai/gpt-oss-120b,anti_midpoint_v2,Uruguay,Quite bad,Quite good,9,0.3333333333333333
+openai/gpt-oss-120b,anti_midpoint_v2,Uruguay,Quite bad,"Neither good, nor bad",3,0.1111111111111111
+openai/gpt-oss-120b,anti_midpoint_v2,Uruguay,Quite bad,Quite bad,1,0.037037037037037035
+openai/gpt-oss-120b,anti_midpoint_v2,Uruguay,Quite bad,Rather bad,10,0.37037037037037035
+openai/gpt-oss-120b,anti_midpoint_v2,Uruguay,Rather bad,Very good,2,0.2
+openai/gpt-oss-120b,anti_midpoint_v2,Uruguay,Rather bad,Quite good,3,0.3
+openai/gpt-oss-120b,anti_midpoint_v2,Uruguay,Rather bad,"Neither good, nor bad",0,0.0
+openai/gpt-oss-120b,anti_midpoint_v2,Uruguay,Rather bad,Quite bad,1,0.1
+openai/gpt-oss-120b,anti_midpoint_v2,Uruguay,Rather bad,Rather bad,4,0.4
+openai/gpt-oss-120b,neutral_v1,Argentina,Very good,Very good,2,0.1111111111111111
+openai/gpt-oss-120b,neutral_v1,Argentina,Very good,Quite good,10,0.5555555555555556
+openai/gpt-oss-120b,neutral_v1,Argentina,Very good,"Neither good, nor bad",3,0.16666666666666666
+openai/gpt-oss-120b,neutral_v1,Argentina,Very good,Quite bad,2,0.1111111111111111
+openai/gpt-oss-120b,neutral_v1,Argentina,Very good,Rather bad,1,0.05555555555555555
+openai/gpt-oss-120b,neutral_v1,Argentina,Quite good,Very good,6,0.06315789473684211
+openai/gpt-oss-120b,neutral_v1,Argentina,Quite good,Quite good,50,0.5263157894736842
+openai/gpt-oss-120b,neutral_v1,Argentina,Quite good,"Neither good, nor bad",8,0.08421052631578947
+openai/gpt-oss-120b,neutral_v1,Argentina,Quite good,Quite bad,20,0.21052631578947367
+openai/gpt-oss-120b,neutral_v1,Argentina,Quite good,Rather bad,11,0.11578947368421053
+openai/gpt-oss-120b,neutral_v1,Argentina,"Neither good, nor bad",Very good,14,0.06796116504854369
+openai/gpt-oss-120b,neutral_v1,Argentina,"Neither good, nor bad",Quite good,90,0.4368932038834951
+openai/gpt-oss-120b,neutral_v1,Argentina,"Neither good, nor bad","Neither good, nor bad",26,0.1262135922330097
+openai/gpt-oss-120b,neutral_v1,Argentina,"Neither good, nor bad",Quite bad,50,0.24271844660194175
+openai/gpt-oss-120b,neutral_v1,Argentina,"Neither good, nor bad",Rather bad,26,0.1262135922330097
+openai/gpt-oss-120b,neutral_v1,Argentina,Quite bad,Very good,2,0.03225806451612903
+openai/gpt-oss-120b,neutral_v1,Argentina,Quite bad,Quite good,26,0.41935483870967744
+openai/gpt-oss-120b,neutral_v1,Argentina,Quite bad,"Neither good, nor bad",11,0.1774193548387097
+openai/gpt-oss-120b,neutral_v1,Argentina,Quite bad,Quite bad,11,0.1774193548387097
+openai/gpt-oss-120b,neutral_v1,Argentina,Quite bad,Rather bad,12,0.1935483870967742
+openai/gpt-oss-120b,neutral_v1,Argentina,Rather bad,Very good,0,0.0
+openai/gpt-oss-120b,neutral_v1,Argentina,Rather bad,Quite good,6,0.3157894736842105
+openai/gpt-oss-120b,neutral_v1,Argentina,Rather bad,"Neither good, nor bad",4,0.21052631578947367
+openai/gpt-oss-120b,neutral_v1,Argentina,Rather bad,Quite bad,5,0.2631578947368421
+openai/gpt-oss-120b,neutral_v1,Argentina,Rather bad,Rather bad,4,0.21052631578947367
+openai/gpt-oss-120b,neutral_v1,United States,Very good,Very good,31,0.5254237288135594
+openai/gpt-oss-120b,neutral_v1,United States,Very good,Quite good,15,0.2542372881355932
+openai/gpt-oss-120b,neutral_v1,United States,Very good,"Neither good, nor bad",4,0.06779661016949153
+openai/gpt-oss-120b,neutral_v1,United States,Very good,Quite bad,5,0.0847457627118644
+openai/gpt-oss-120b,neutral_v1,United States,Very good,Rather bad,4,0.06779661016949153
+openai/gpt-oss-120b,neutral_v1,United States,Quite good,Very good,58,0.43283582089552236
+openai/gpt-oss-120b,neutral_v1,United States,Quite good,Quite good,51,0.3805970149253731
+openai/gpt-oss-120b,neutral_v1,United States,Quite good,"Neither good, nor bad",8,0.05970149253731343
+openai/gpt-oss-120b,neutral_v1,United States,Quite good,Quite bad,12,0.08955223880597014
+openai/gpt-oss-120b,neutral_v1,United States,Quite good,Rather bad,5,0.03731343283582089
+openai/gpt-oss-120b,neutral_v1,United States,"Neither good, nor bad",Very good,28,0.18181818181818182
+openai/gpt-oss-120b,neutral_v1,United States,"Neither good, nor bad",Quite good,65,0.42207792207792205
+openai/gpt-oss-120b,neutral_v1,United States,"Neither good, nor bad","Neither good, nor bad",19,0.12337662337662338
+openai/gpt-oss-120b,neutral_v1,United States,"Neither good, nor bad",Quite bad,25,0.16233766233766234
+openai/gpt-oss-120b,neutral_v1,United States,"Neither good, nor bad",Rather bad,17,0.11038961038961038
+openai/gpt-oss-120b,neutral_v1,United States,Quite bad,Very good,2,0.046511627906976744
+openai/gpt-oss-120b,neutral_v1,United States,Quite bad,Quite good,18,0.4186046511627907
+openai/gpt-oss-120b,neutral_v1,United States,Quite bad,"Neither good, nor bad",4,0.09302325581395349
+openai/gpt-oss-120b,neutral_v1,United States,Quite bad,Quite bad,11,0.2558139534883721
+openai/gpt-oss-120b,neutral_v1,United States,Quite bad,Rather bad,8,0.18604651162790697
+openai/gpt-oss-120b,neutral_v1,United States,Rather bad,Very good,1,0.1
+openai/gpt-oss-120b,neutral_v1,United States,Rather bad,Quite good,3,0.3
+openai/gpt-oss-120b,neutral_v1,United States,Rather bad,"Neither good, nor bad",1,0.1
+openai/gpt-oss-120b,neutral_v1,United States,Rather bad,Quite bad,1,0.1
+openai/gpt-oss-120b,neutral_v1,United States,Rather bad,Rather bad,4,0.4
+openai/gpt-oss-120b,neutral_v1,Uruguay,Very good,Very good,18,0.3333333333333333
+openai/gpt-oss-120b,neutral_v1,Uruguay,Very good,Quite good,15,0.2777777777777778
+openai/gpt-oss-120b,neutral_v1,Uruguay,Very good,"Neither good, nor bad",10,0.18518518518518517
+openai/gpt-oss-120b,neutral_v1,Uruguay,Very good,Quite bad,3,0.05555555555555555
+openai/gpt-oss-120b,neutral_v1,Uruguay,Very good,Rather bad,8,0.14814814814814814
+openai/gpt-oss-120b,neutral_v1,Uruguay,Quite good,Very good,31,0.2743362831858407
+openai/gpt-oss-120b,neutral_v1,Uruguay,Quite good,Quite good,38,0.336283185840708
+openai/gpt-oss-120b,neutral_v1,Uruguay,Quite good,"Neither good, nor bad",19,0.168141592920354
+openai/gpt-oss-120b,neutral_v1,Uruguay,Quite good,Quite bad,9,0.07964601769911504
+openai/gpt-oss-120b,neutral_v1,Uruguay,Quite good,Rather bad,16,0.1415929203539823
+openai/gpt-oss-120b,neutral_v1,Uruguay,"Neither good, nor bad",Very good,51,0.2602040816326531
+openai/gpt-oss-120b,neutral_v1,Uruguay,"Neither good, nor bad",Quite good,64,0.32653061224489793
+openai/gpt-oss-120b,neutral_v1,Uruguay,"Neither good, nor bad","Neither good, nor bad",30,0.15306122448979592
+openai/gpt-oss-120b,neutral_v1,Uruguay,"Neither good, nor bad",Quite bad,11,0.05612244897959184
+openai/gpt-oss-120b,neutral_v1,Uruguay,"Neither good, nor bad",Rather bad,40,0.20408163265306123
+openai/gpt-oss-120b,neutral_v1,Uruguay,Quite bad,Very good,4,0.14814814814814814
+openai/gpt-oss-120b,neutral_v1,Uruguay,Quite bad,Quite good,5,0.18518518518518517
+openai/gpt-oss-120b,neutral_v1,Uruguay,Quite bad,"Neither good, nor bad",5,0.18518518518518517
+openai/gpt-oss-120b,neutral_v1,Uruguay,Quite bad,Quite bad,4,0.14814814814814814
+openai/gpt-oss-120b,neutral_v1,Uruguay,Quite bad,Rather bad,9,0.3333333333333333
+openai/gpt-oss-120b,neutral_v1,Uruguay,Rather bad,Very good,1,0.1
+openai/gpt-oss-120b,neutral_v1,Uruguay,Rather bad,Quite good,3,0.3
+openai/gpt-oss-120b,neutral_v1,Uruguay,Rather bad,"Neither good, nor bad",2,0.2
+openai/gpt-oss-120b,neutral_v1,Uruguay,Rather bad,Quite bad,1,0.1
+openai/gpt-oss-120b,neutral_v1,Uruguay,Rather bad,Rather bad,3,0.3
+openai/gpt-oss-20b,anti_midpoint_v2,Argentina,Very good,Very good,2,0.1111111111111111
+openai/gpt-oss-20b,anti_midpoint_v2,Argentina,Very good,Quite good,11,0.6111111111111112
+openai/gpt-oss-20b,anti_midpoint_v2,Argentina,Very good,"Neither good, nor bad",0,0.0
+openai/gpt-oss-20b,anti_midpoint_v2,Argentina,Very good,Quite bad,2,0.1111111111111111
+openai/gpt-oss-20b,anti_midpoint_v2,Argentina,Very good,Rather bad,3,0.16666666666666666
+openai/gpt-oss-20b,anti_midpoint_v2,Argentina,Quite good,Very good,10,0.10526315789473684
+openai/gpt-oss-20b,anti_midpoint_v2,Argentina,Quite good,Quite good,45,0.47368421052631576
+openai/gpt-oss-20b,anti_midpoint_v2,Argentina,Quite good,"Neither good, nor bad",9,0.09473684210526316
+openai/gpt-oss-20b,anti_midpoint_v2,Argentina,Quite good,Quite bad,13,0.1368421052631579
+openai/gpt-oss-20b,anti_midpoint_v2,Argentina,Quite good,Rather bad,18,0.18947368421052632
+openai/gpt-oss-20b,anti_midpoint_v2,Argentina,"Neither good, nor bad",Very good,16,0.07766990291262135
+openai/gpt-oss-20b,anti_midpoint_v2,Argentina,"Neither good, nor bad",Quite good,98,0.47572815533980584
+openai/gpt-oss-20b,anti_midpoint_v2,Argentina,"Neither good, nor bad","Neither good, nor bad",13,0.06310679611650485
+openai/gpt-oss-20b,anti_midpoint_v2,Argentina,"Neither good, nor bad",Quite bad,36,0.17475728155339806
+openai/gpt-oss-20b,anti_midpoint_v2,Argentina,"Neither good, nor bad",Rather bad,43,0.2087378640776699
+openai/gpt-oss-20b,anti_midpoint_v2,Argentina,Quite bad,Very good,4,0.06451612903225806
+openai/gpt-oss-20b,anti_midpoint_v2,Argentina,Quite bad,Quite good,28,0.45161290322580644
+openai/gpt-oss-20b,anti_midpoint_v2,Argentina,Quite bad,"Neither good, nor bad",5,0.08064516129032258
+openai/gpt-oss-20b,anti_midpoint_v2,Argentina,Quite bad,Quite bad,8,0.12903225806451613
+openai/gpt-oss-20b,anti_midpoint_v2,Argentina,Quite bad,Rather bad,17,0.27419354838709675
+openai/gpt-oss-20b,anti_midpoint_v2,Argentina,Rather bad,Very good,0,0.0
+openai/gpt-oss-20b,anti_midpoint_v2,Argentina,Rather bad,Quite good,7,0.3684210526315789
+openai/gpt-oss-20b,anti_midpoint_v2,Argentina,Rather bad,"Neither good, nor bad",1,0.05263157894736842
+openai/gpt-oss-20b,anti_midpoint_v2,Argentina,Rather bad,Quite bad,6,0.3157894736842105
+openai/gpt-oss-20b,anti_midpoint_v2,Argentina,Rather bad,Rather bad,5,0.2631578947368421
+openai/gpt-oss-20b,anti_midpoint_v2,United States,Very good,Very good,29,0.4915254237288136
+openai/gpt-oss-20b,anti_midpoint_v2,United States,Very good,Quite good,25,0.423728813559322
+openai/gpt-oss-20b,anti_midpoint_v2,United States,Very good,"Neither good, nor bad",0,0.0
+openai/gpt-oss-20b,anti_midpoint_v2,United States,Very good,Quite bad,2,0.03389830508474576
+openai/gpt-oss-20b,anti_midpoint_v2,United States,Very good,Rather bad,3,0.05084745762711865
+openai/gpt-oss-20b,anti_midpoint_v2,United States,Quite good,Very good,46,0.34328358208955223
+openai/gpt-oss-20b,anti_midpoint_v2,United States,Quite good,Quite good,81,0.6044776119402985
+openai/gpt-oss-20b,anti_midpoint_v2,United States,Quite good,"Neither good, nor bad",0,0.0
+openai/gpt-oss-20b,anti_midpoint_v2,United States,Quite good,Quite bad,1,0.007462686567164179
+openai/gpt-oss-20b,anti_midpoint_v2,United States,Quite good,Rather bad,6,0.04477611940298507
+openai/gpt-oss-20b,anti_midpoint_v2,United States,"Neither good, nor bad",Very good,29,0.18831168831168832
+openai/gpt-oss-20b,anti_midpoint_v2,United States,"Neither good, nor bad",Quite good,92,0.5974025974025974
+openai/gpt-oss-20b,anti_midpoint_v2,United States,"Neither good, nor bad","Neither good, nor bad",5,0.032467532467532464
+openai/gpt-oss-20b,anti_midpoint_v2,United States,"Neither good, nor bad",Quite bad,12,0.07792207792207792
+openai/gpt-oss-20b,anti_midpoint_v2,United States,"Neither good, nor bad",Rather bad,16,0.1038961038961039
+openai/gpt-oss-20b,anti_midpoint_v2,United States,Quite bad,Very good,1,0.023255813953488372
+openai/gpt-oss-20b,anti_midpoint_v2,United States,Quite bad,Quite good,28,0.6511627906976745
+openai/gpt-oss-20b,anti_midpoint_v2,United States,Quite bad,"Neither good, nor bad",2,0.046511627906976744
+openai/gpt-oss-20b,anti_midpoint_v2,United States,Quite bad,Quite bad,3,0.06976744186046512
+openai/gpt-oss-20b,anti_midpoint_v2,United States,Quite bad,Rather bad,9,0.20930232558139536
+openai/gpt-oss-20b,anti_midpoint_v2,United States,Rather bad,Very good,1,0.1
+openai/gpt-oss-20b,anti_midpoint_v2,United States,Rather bad,Quite good,4,0.4
+openai/gpt-oss-20b,anti_midpoint_v2,United States,Rather bad,"Neither good, nor bad",0,0.0
+openai/gpt-oss-20b,anti_midpoint_v2,United States,Rather bad,Quite bad,1,0.1
+openai/gpt-oss-20b,anti_midpoint_v2,United States,Rather bad,Rather bad,4,0.4
+openai/gpt-oss-20b,anti_midpoint_v2,Uruguay,Very good,Very good,20,0.37037037037037035
+openai/gpt-oss-20b,anti_midpoint_v2,Uruguay,Very good,Quite good,24,0.4444444444444444
+openai/gpt-oss-20b,anti_midpoint_v2,Uruguay,Very good,"Neither good, nor bad",0,0.0
+openai/gpt-oss-20b,anti_midpoint_v2,Uruguay,Very good,Quite bad,3,0.05555555555555555
+openai/gpt-oss-20b,anti_midpoint_v2,Uruguay,Very good,Rather bad,7,0.12962962962962962
+openai/gpt-oss-20b,anti_midpoint_v2,Uruguay,Quite good,Very good,35,0.30973451327433627
+openai/gpt-oss-20b,anti_midpoint_v2,Uruguay,Quite good,Quite good,53,0.4690265486725664
+openai/gpt-oss-20b,anti_midpoint_v2,Uruguay,Quite good,"Neither good, nor bad",2,0.017699115044247787
+openai/gpt-oss-20b,anti_midpoint_v2,Uruguay,Quite good,Quite bad,5,0.04424778761061947
+openai/gpt-oss-20b,anti_midpoint_v2,Uruguay,Quite good,Rather bad,18,0.1592920353982301
+openai/gpt-oss-20b,anti_midpoint_v2,Uruguay,"Neither good, nor bad",Very good,50,0.25510204081632654
+openai/gpt-oss-20b,anti_midpoint_v2,Uruguay,"Neither good, nor bad",Quite good,90,0.45918367346938777
+openai/gpt-oss-20b,anti_midpoint_v2,Uruguay,"Neither good, nor bad","Neither good, nor bad",4,0.02040816326530612
+openai/gpt-oss-20b,anti_midpoint_v2,Uruguay,"Neither good, nor bad",Quite bad,14,0.07142857142857142
+openai/gpt-oss-20b,anti_midpoint_v2,Uruguay,"Neither good, nor bad",Rather bad,38,0.19387755102040816
+openai/gpt-oss-20b,anti_midpoint_v2,Uruguay,Quite bad,Very good,4,0.14814814814814814
+openai/gpt-oss-20b,anti_midpoint_v2,Uruguay,Quite bad,Quite good,12,0.4444444444444444
+openai/gpt-oss-20b,anti_midpoint_v2,Uruguay,Quite bad,"Neither good, nor bad",0,0.0
+openai/gpt-oss-20b,anti_midpoint_v2,Uruguay,Quite bad,Quite bad,3,0.1111111111111111
+openai/gpt-oss-20b,anti_midpoint_v2,Uruguay,Quite bad,Rather bad,8,0.2962962962962963
+openai/gpt-oss-20b,anti_midpoint_v2,Uruguay,Rather bad,Very good,1,0.1
+openai/gpt-oss-20b,anti_midpoint_v2,Uruguay,Rather bad,Quite good,4,0.4
+openai/gpt-oss-20b,anti_midpoint_v2,Uruguay,Rather bad,"Neither good, nor bad",1,0.1
+openai/gpt-oss-20b,anti_midpoint_v2,Uruguay,Rather bad,Quite bad,1,0.1
+openai/gpt-oss-20b,anti_midpoint_v2,Uruguay,Rather bad,Rather bad,3,0.3
+openai/gpt-oss-20b,neutral_v1,Argentina,Very good,Very good,2,0.1111111111111111
+openai/gpt-oss-20b,neutral_v1,Argentina,Very good,Quite good,9,0.5
+openai/gpt-oss-20b,neutral_v1,Argentina,Very good,"Neither good, nor bad",4,0.2222222222222222
+openai/gpt-oss-20b,neutral_v1,Argentina,Very good,Quite bad,2,0.1111111111111111
+openai/gpt-oss-20b,neutral_v1,Argentina,Very good,Rather bad,1,0.05555555555555555
+openai/gpt-oss-20b,neutral_v1,Argentina,Quite good,Very good,5,0.05263157894736842
+openai/gpt-oss-20b,neutral_v1,Argentina,Quite good,Quite good,48,0.5052631578947369
+openai/gpt-oss-20b,neutral_v1,Argentina,Quite good,"Neither good, nor bad",24,0.25263157894736843
+openai/gpt-oss-20b,neutral_v1,Argentina,Quite good,Quite bad,11,0.11578947368421053
+openai/gpt-oss-20b,neutral_v1,Argentina,Quite good,Rather bad,7,0.07368421052631578
+openai/gpt-oss-20b,neutral_v1,Argentina,"Neither good, nor bad",Very good,8,0.038834951456310676
+openai/gpt-oss-20b,neutral_v1,Argentina,"Neither good, nor bad",Quite good,103,0.5
+openai/gpt-oss-20b,neutral_v1,Argentina,"Neither good, nor bad","Neither good, nor bad",42,0.20388349514563106
+openai/gpt-oss-20b,neutral_v1,Argentina,"Neither good, nor bad",Quite bad,36,0.17475728155339806
+openai/gpt-oss-20b,neutral_v1,Argentina,"Neither good, nor bad",Rather bad,17,0.0825242718446602
+openai/gpt-oss-20b,neutral_v1,Argentina,Quite bad,Very good,1,0.016129032258064516
+openai/gpt-oss-20b,neutral_v1,Argentina,Quite bad,Quite good,37,0.5967741935483871
+openai/gpt-oss-20b,neutral_v1,Argentina,Quite bad,"Neither good, nor bad",8,0.12903225806451613
+openai/gpt-oss-20b,neutral_v1,Argentina,Quite bad,Quite bad,10,0.16129032258064516
+openai/gpt-oss-20b,neutral_v1,Argentina,Quite bad,Rather bad,6,0.0967741935483871
+openai/gpt-oss-20b,neutral_v1,Argentina,Rather bad,Very good,0,0.0
+openai/gpt-oss-20b,neutral_v1,Argentina,Rather bad,Quite good,12,0.631578947368421
+openai/gpt-oss-20b,neutral_v1,Argentina,Rather bad,"Neither good, nor bad",2,0.10526315789473684
+openai/gpt-oss-20b,neutral_v1,Argentina,Rather bad,Quite bad,1,0.05263157894736842
+openai/gpt-oss-20b,neutral_v1,Argentina,Rather bad,Rather bad,4,0.21052631578947367
+openai/gpt-oss-20b,neutral_v1,United States,Very good,Very good,21,0.3559322033898305
+openai/gpt-oss-20b,neutral_v1,United States,Very good,Quite good,33,0.559322033898305
+openai/gpt-oss-20b,neutral_v1,United States,Very good,"Neither good, nor bad",1,0.01694915254237288
+openai/gpt-oss-20b,neutral_v1,United States,Very good,Quite bad,2,0.03389830508474576
+openai/gpt-oss-20b,neutral_v1,United States,Very good,Rather bad,2,0.03389830508474576
+openai/gpt-oss-20b,neutral_v1,United States,Quite good,Very good,26,0.19402985074626866
+openai/gpt-oss-20b,neutral_v1,United States,Quite good,Quite good,98,0.7313432835820896
+openai/gpt-oss-20b,neutral_v1,United States,Quite good,"Neither good, nor bad",5,0.03731343283582089
+openai/gpt-oss-20b,neutral_v1,United States,Quite good,Quite bad,2,0.014925373134328358
+openai/gpt-oss-20b,neutral_v1,United States,Quite good,Rather bad,3,0.022388059701492536
+openai/gpt-oss-20b,neutral_v1,United States,"Neither good, nor bad",Very good,13,0.08441558441558442
+openai/gpt-oss-20b,neutral_v1,United States,"Neither good, nor bad",Quite good,115,0.7467532467532467
+openai/gpt-oss-20b,neutral_v1,United States,"Neither good, nor bad","Neither good, nor bad",7,0.045454545454545456
+openai/gpt-oss-20b,neutral_v1,United States,"Neither good, nor bad",Quite bad,11,0.07142857142857142
+openai/gpt-oss-20b,neutral_v1,United States,"Neither good, nor bad",Rather bad,8,0.05194805194805195
+openai/gpt-oss-20b,neutral_v1,United States,Quite bad,Very good,1,0.023255813953488372
+openai/gpt-oss-20b,neutral_v1,United States,Quite bad,Quite good,28,0.6511627906976745
+openai/gpt-oss-20b,neutral_v1,United States,Quite bad,"Neither good, nor bad",5,0.11627906976744186
+openai/gpt-oss-20b,neutral_v1,United States,Quite bad,Quite bad,6,0.13953488372093023
+openai/gpt-oss-20b,neutral_v1,United States,Quite bad,Rather bad,3,0.06976744186046512
+openai/gpt-oss-20b,neutral_v1,United States,Rather bad,Very good,0,0.0
+openai/gpt-oss-20b,neutral_v1,United States,Rather bad,Quite good,6,0.6
+openai/gpt-oss-20b,neutral_v1,United States,Rather bad,"Neither good, nor bad",0,0.0
+openai/gpt-oss-20b,neutral_v1,United States,Rather bad,Quite bad,3,0.3
+openai/gpt-oss-20b,neutral_v1,United States,Rather bad,Rather bad,1,0.1
+openai/gpt-oss-20b,neutral_v1,Uruguay,Very good,Very good,14,0.25925925925925924
+openai/gpt-oss-20b,neutral_v1,Uruguay,Very good,Quite good,28,0.5185185185185185
+openai/gpt-oss-20b,neutral_v1,Uruguay,Very good,"Neither good, nor bad",2,0.037037037037037035
+openai/gpt-oss-20b,neutral_v1,Uruguay,Very good,Quite bad,6,0.1111111111111111
+openai/gpt-oss-20b,neutral_v1,Uruguay,Very good,Rather bad,4,0.07407407407407407
+openai/gpt-oss-20b,neutral_v1,Uruguay,Quite good,Very good,18,0.1592920353982301
+openai/gpt-oss-20b,neutral_v1,Uruguay,Quite good,Quite good,68,0.6017699115044248
+openai/gpt-oss-20b,neutral_v1,Uruguay,Quite good,"Neither good, nor bad",9,0.07964601769911504
+openai/gpt-oss-20b,neutral_v1,Uruguay,Quite good,Quite bad,8,0.07079646017699115
+openai/gpt-oss-20b,neutral_v1,Uruguay,Quite good,Rather bad,10,0.08849557522123894
+openai/gpt-oss-20b,neutral_v1,Uruguay,"Neither good, nor bad",Very good,24,0.12244897959183673
+openai/gpt-oss-20b,neutral_v1,Uruguay,"Neither good, nor bad",Quite good,97,0.49489795918367346
+openai/gpt-oss-20b,neutral_v1,Uruguay,"Neither good, nor bad","Neither good, nor bad",30,0.15306122448979592
+openai/gpt-oss-20b,neutral_v1,Uruguay,"Neither good, nor bad",Quite bad,25,0.12755102040816327
+openai/gpt-oss-20b,neutral_v1,Uruguay,"Neither good, nor bad",Rather bad,20,0.10204081632653061
+openai/gpt-oss-20b,neutral_v1,Uruguay,Quite bad,Very good,4,0.14814814814814814
+openai/gpt-oss-20b,neutral_v1,Uruguay,Quite bad,Quite good,6,0.2222222222222222
+openai/gpt-oss-20b,neutral_v1,Uruguay,Quite bad,"Neither good, nor bad",7,0.25925925925925924
+openai/gpt-oss-20b,neutral_v1,Uruguay,Quite bad,Quite bad,5,0.18518518518518517
+openai/gpt-oss-20b,neutral_v1,Uruguay,Quite bad,Rather bad,5,0.18518518518518517
+openai/gpt-oss-20b,neutral_v1,Uruguay,Rather bad,Very good,1,0.1
+openai/gpt-oss-20b,neutral_v1,Uruguay,Rather bad,Quite good,4,0.4
+openai/gpt-oss-20b,neutral_v1,Uruguay,Rather bad,"Neither good, nor bad",1,0.1
+openai/gpt-oss-20b,neutral_v1,Uruguay,Rather bad,Quite bad,3,0.3
+openai/gpt-oss-20b,neutral_v1,Uruguay,Rather bad,Rather bad,1,0.1

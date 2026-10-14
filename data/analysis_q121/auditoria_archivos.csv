@@ -1,0 +1,14 @@
+file,run_id,model,prompt,attempts,valid,invalid,profiles,thinking,max_tokens,transformers,included,reason
+Qwen_Qwen3-14B_Q121_23a3a9007d833555.csv,23a3a9007d833555,Qwen/Qwen3-14B,anti_midpoint_v2,1200,1200,0,1200,False,512,5.18.0,True,
+Qwen_Qwen3-14B_Q121_neutral_v1_91ef88661c0d8729.csv,91ef88661c0d8729,Qwen/Qwen3-14B,neutral_v1,1200,1200,0,1200,False,512,5.19.0,True,
+Qwen_Qwen3-32B_Q121_981a3964cc64cfea.csv,981a3964cc64cfea,Qwen/Qwen3-32B,anti_midpoint_v2,1200,1200,0,1200,False,512,5.18.0,True,
+Qwen_Qwen3-32B_Q121_neutral_v1_a2fcd90a2b4f7905.csv,a2fcd90a2b4f7905,Qwen/Qwen3-32B,neutral_v1,1200,1200,0,1200,False,512,5.19.0,True,
+Qwen_Qwen3.5-4B_Q121_7843e794cb5d1684.csv,7843e794cb5d1684,Qwen/Qwen3.5-4B,anti_midpoint_v2,1200,1121,79,1200,False,512,5.18.0,True,
+Qwen_Qwen3.5-4B_Q121_c8cc559dc6ee47fa.csv,c8cc559dc6ee47fa,Qwen/Qwen3.5-4B,anti_midpoint_v2,21,12,9,21,True,4096,5.18.0,False,"Corrida parcial: thinking=True, max_new_tokens=4096"
+Qwen_Qwen3.5-4B_Q121_neutral_v1_0a7dbc1183f5c8f7.csv,0a7dbc1183f5c8f7,Qwen/Qwen3.5-4B,neutral_v1,1200,1011,189,1200,False,512,5.19.0,True,
+gpt-6-luna_Q121_anti_midpoint_v2_106fe7f84f983591.csv,106fe7f84f983591,gpt-6-luna,anti_midpoint_v2,1200,1200,0,1200,API/Harmony,512,,True,
+gpt-6-luna_Q121_neutral_v1_a45afd02a6d60fca.csv,a45afd02a6d60fca,gpt-6-luna,neutral_v1,1200,1200,0,1200,API/Harmony,512,,True,
+openai_gpt-oss-120b_Q121_2c3d5dda2f712d41.csv,2c3d5dda2f712d41,openai/gpt-oss-120b,anti_midpoint_v2,1200,1200,0,1200,API/Harmony,512,5.18.0,True,
+openai_gpt-oss-120b_Q121_neutral_v1_1b5eb509faf4ce55.csv,1b5eb509faf4ce55,openai/gpt-oss-120b,neutral_v1,1200,1200,0,1200,API/Harmony,512,5.19.0,True,
+openai_gpt-oss-20b_Q121_3670b6d1020a7160.csv,3670b6d1020a7160,openai/gpt-oss-20b,anti_midpoint_v2,1200,1200,0,1200,API/Harmony,512,5.18.0,True,
+openai_gpt-oss-20b_Q121_neutral_v1_572981969192ef05.csv,572981969192ef05,openai/gpt-oss-20b,neutral_v1,1200,1200,0,1200,API/Harmony,512,5.19.0,True,

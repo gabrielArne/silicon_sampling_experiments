@@ -11,15 +11,12 @@ necesario para ejecutarlo en molab, sin importar módulos locales del repositori
 | Qwen3.5-4B | [q121_qwen3_5_4b.py](notebooks/q121_qwen3_5_4b.py) |
 | GPT-OSS-20B | [q121_gpt_oss_20b.py](notebooks/q121_gpt_oss_20b.py) |
 | GPT-OSS-120B | [q121_gpt_oss_120b.py](notebooks/q121_gpt_oss_120b.py) |
-
-El análisis conjunto se ejecuta con
-[analysis_q121_models.py](notebooks/analysis_q121_models.py). Lee de Drive las
-corridas más completas de cada modelo, calcula las métricas comparables con el
-tutorial y guarda tablas, figuras e informe en `silicon_sampling/q121_analysis`.
+| GPT-6 Luna | [q121_gpt_6_luna.py](notebooks/q121_gpt_6_luna.py) |
 
 ## Ejecutar en molab
 
-1. Abrí uno de los archivos `.py` en molab y seleccioná una máquina con GPU
+1. Abrí uno de los archivos `.py` en molab. Para GPT-6 Luna, creá el secreto
+   `OPENAI_API_KEY`; usa la API y no necesita GPU. Para los modelos locales, seleccioná una máquina con GPU
    y memoria suficiente para ese modelo. Las dependencias están declaradas al
    comienzo del archivo. GPT-OSS incluye `kernels` y `triton` para sus pesos MXFP4;
    Qwen3.5 usa su procesador multimodal, con mensajes de texto solamente.
@@ -27,9 +24,11 @@ tutorial y guarda tablas, figuras e informe en `silicon_sampling/q121_analysis`.
    molab, o guardalo en la carpeta `silicon_sampling` de Google Drive. También
    podés indicar `INPUT_DRIVE_FILE_ID`; si lo completás, tiene prioridad sobre
    el archivo local. `DATA_PATH` permite usar otra ruta.
-3. La configuración inicial usa `N_SAMPLE = 1`: genera un perfil por país, tres
-   respuestas por modelo. Cuando la prueba funcione, `N_SAMPLE = None` usa todos
-   los perfiles válidos. Con el CSV
+3. La configuración usa `PROMPT_VERSION = "neutral_v1"`. GPT-6 Luna comienza con
+   `N_SAMPLE = 400` perfiles por país. Los notebooks locales mantienen
+   `N_SAMPLE = None` para producir la segunda corrida completa. El prompt ya
+   ejecutado queda disponible como `anti_midpoint_v2`. Para una prueba breve,
+   usá `N_SAMPLE = 1`, que genera un perfil por país. Con el CSV
    actual hay 764 perfiles de Argentina, 1479 de Estados Unidos y 786 de Uruguay:
    **3029 perfiles por modelo**.
 4. Pulsá **Iniciar / reanudar** y seguí el flujo de autorización de Google Drive,
@@ -52,8 +51,9 @@ memoria. Consultá las fichas enlazadas más abajo al elegir la máquina.
 
 ## CSV y reanudación
 
-Se mantienen el filtro de países, las cinco opciones y el prompt de
-`experiment_q121.ipynb`. Se envía un perfil por generación; la respuesta empírica
+Se mantienen el filtro de países y las cinco opciones. Cada notebook contiene
+`neutral_v1` y `anti_midpoint_v2`; la configuración elige uno y lo registra en
+el CSV. Se envía un perfil por generación; la respuesta empírica
 se conserva para comparar, pero no se incluye en el prompt.
 
 Cada fila es un **intento**, con el esquema del repositorio de referencia:
@@ -94,6 +94,20 @@ versiones usadas en la corrida original; quedan registradas en `parameters_json`
 
 ## Verificación
 
+El análisis Q121 se ejecuta con [analysis_q121.py](notebooks/analysis_q121.py).
+Lee los CSV de `data/output`, excluye la corrida parcial `c8cc559dc6ee47fa` y
+genera `data/output/dataset_respuestas_modelos.csv`. Conserva los intentos
+inválidos para auditar cobertura; `selected_response` identifica respuestas
+válidas únicas. En Molab basta con subir el notebook y ese CSV unificado.
+
+Las métricas, gráficos e informe se guardan en `data/analysis_q121`.
+El HTML ejecutado permite leer todos los resultados sin iniciar Python.
+Para ejecutar y exportar localmente con las dependencias declaradas:
+
+```bash
+uvx marimo export html --sandbox notebooks/analysis_q121.py -o data/analysis_q121/analysis_q121.html
+```
+
 ```bash
 uv run --with pytest --with pandas pytest tests/test_q121_notebooks.py -q
 uvx marimo check notebooks/q121_*.py
@@ -110,4 +124,5 @@ nueva. No descargan pesos ni realizan subidas reales.
 - [Qwen3-14B](https://huggingface.co/Qwen/Qwen3-14B) y [Qwen3-32B](https://huggingface.co/Qwen/Qwen3-32B).
 - [Qwen3.5-4B](https://huggingface.co/Qwen/Qwen3.5-4B) y [su implementación en Transformers](https://huggingface.co/docs/transformers/model_doc/qwen3_5).
 - [GPT-OSS-20B](https://huggingface.co/openai/gpt-oss-20b) y [GPT-OSS-120B](https://huggingface.co/openai/gpt-oss-120b).
+- [GPT-6 Luna](https://developers.openai.com/api/docs/models/gpt-6-luna) y [Responses API](https://developers.openai.com/api/reference/python/resources/responses/methods/create).
 
