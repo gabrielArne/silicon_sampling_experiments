@@ -184,6 +184,5 @@ cython_debug/
 .venv-q121
 .uv-cache
 .pytest-tmp
-data/output
 __marimo__
 .matplotlib/
